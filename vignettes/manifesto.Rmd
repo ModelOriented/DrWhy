@@ -1,0 +1,34 @@
+---
+title: "The DrWhy manifesto"
+author: "Przemyslaw Biecek"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{The DrWhy manifesto}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+I simply love the [tidyverse manifesto](https://github.com/tidyverse/tidyverse/blob/master/vignettes/manifesto.Rmd) written by Hadley Wickham.
+
+Especially one point, that I believe is a key differentiator between DrWhy tools and many other tools for XAI.
+
+## Design for humans
+
+*Copied from tidyverse manifesto*
+
+Design your API primarily so that it is easy to use by humans. Computer efficiency is a secondary concern because the bottleneck in most data analysis is thinking time, not computing time.
+
+*   Invest time in naming your functions. Evocative function names 
+    make your API easier to use and remember.
+
+*   Favour explicit, lengthy names, over short, implicit, names. 
+    Save the shortest names for the most important operations.
+
+*   Think about how autocomplete can also make an API that's easy to 
+    write. Make sure that function families are identified by a 
+    common prefix, not a common suffix. This makes autocomplete more
+    helpful, as you can jog your memory with the prompts. For smaller
+    packages, this may mean that every function has a common prefix 
+    (e.g. stringr, xml2, rvest).
+
