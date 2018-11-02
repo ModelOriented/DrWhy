@@ -26,6 +26,15 @@ breakDown2::local_attributions()
 <img width="300px" src="images/local_attributions_1.jpg"/>
 &nbsp;&nbsp;<img width="300px" src="images/local_attributions_2.jpg"/>
 
+Variable attribution with interactions is calculated with the  [local_interactions](https://pbiecek.github.io/breakDown2/reference/local_interactions.html) function.
+
+```
+breakDown2::local_interactions()
+```
+
+<img width="300px" src="images/local_interactions_1.jpg"/>
+
+
 ## Variable profiles
 
 
