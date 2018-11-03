@@ -37,8 +37,13 @@ breakDown2::local_interactions()
 
 ## Variable profiles
 
+Variable profile explainers are implemented in the `ceterisParibus2` package in the [local_profiles](https://pbiecek.github.io/breakDown2/reference/local_profiles.html) function.
 
+```
+ceterisParibus2::local_profiles()
+```
 
+<img width="300px" src="images/local_profile_1.jpg"/>
 
 # Global / Population
 
