@@ -15,7 +15,7 @@ Explainers for predictive models can be created with model agnostic or model spe
 
 # Individual / Local
 
-## Individual Variable Attribution
+## Individual Variable Attributions
 
 Variable attribution explainers implemented in the `breakDown2` package in the [local_attributions](https://pbiecek.github.io/breakDown2/reference/local_attributions.html) function.
 
@@ -46,5 +46,11 @@ ceterisParibus2::individual_variable_profile()
 <img width="300px" src="images/local_profile_1.jpg"/>
 
 # Model / Global
+
+## Model Variable Profiles
+
+## Model Variable Importance
+
+## Model Performance
 
 
