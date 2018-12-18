@@ -2,6 +2,8 @@
 
 `DrWhy` is the collection of tools for Explainable AI (XAI). It's based on shared principles and simple grammar for exploration, explanation and visualisation of predictive models.
 
+Please, note that DrWhy is under rapid development and is still maturing. If you are looking for a stable solution, please use the mature [DALEX](https://github.com/pbiecek/DALEX/) package.
+
 ## Architecture of DrWhy
 
 `DrWhy` works on fully trained predictive models. Models can be created with any tool. 
