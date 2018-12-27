@@ -4,6 +4,53 @@
 
 Please, note that DrWhy is under rapid development and is still maturing. If you are looking for a stable solution, please use the mature [DALEX](https://github.com/pbiecek/DALEX/) package.
 
+## Lifecycle of Predictive Models
+
+*It takes a village to raise a <del>child</del> model*.
+
+Tools that are usefull during the model lifetime. **MI2** stands for our internal tools.
+
+### 1. Data acquisition
+
+* [dataMaid](https://cran.r-project.org/web/packages/dataMaid/index.html); A Suite of Checks for Identification of Potential Errors in a Data Frame as Part of the Data Screening Process
+
+### 2. Feature Selection
+
+* Model Agnostic Variable Importance Scores. Surrogate learning = Train an elastic model and measure feature importance in such model. See [DALEX](https://github.com/pbiecek/DALEX/), [Model Class Reliance MCR](https://arxiv.org/abs/1801.01489) 
+* [vip](https://github.com/koalaverse/vip) Variable importance plots 
+
+### 3. Feature Engineering
+
+* [SAFE](https://github.com/MI2DataLab/SAFE) **MI2**; Surrogate learning = Train an elastic model and extract feature transformations. 
+* [xspliner](https://github.com/ModelOriented/xspliner) **MI2**; Using surrogate black-boxes to train interpretable spline based additive models 
+
+### 4. Model Tuning
+
+* [mlr](https://github.com/mlr-org/mlr) Machine Learning in R [paper](http://jmlr.org/papers/v17/15-066.html)
+* [caret](https://github.com/topepo/caret) Classification And Regression Training [paper](https://www.jstatsoft.org/article/view/v028i05)
+
+### 5. Model Validation
+
+* [auditor](https://github.com/MI2DataLab/auditor) **MI2**; model verification, validation, and error analysis [vigniette](https://mi2datalab.github.io/auditor/articles/model_performance_audit.html)
+* [DALEX](https://github.com/pbiecek/DALEX/) **MI2**; Descriptive mAchine Learning EXplanations
+* [iml](https://github.com/christophM/iml); interpretable machine learning R package
+
+
+### 6. Model Deployment
+
+* [breakDown](https://github.com/pbiecek/breakDown) and [breakDown2](https://github.com/ModelOriented/breakDown2) **MI2**; Model Agnostic Explainers for Individual Predictions (with interactions)
+* [ceterisParibus](https://github.com/pbiecek/ceterisParibus), [pyCeterisParibus](https://github.com/ModelOriented/pyCeterisParibus) and [ceterisParibus2](https://github.com/ModelOriented/ceterisParibus2) **MI2**; Ceteris Paribus Plots (What-If plots) for explanations of a single observation
+* [localModel](https://github.com/ModelOriented/localModel) and [live](https://github.com/MI2DataLab/live/) **MI2**; 
+LIME-like explanations with interpretable features based on Ceteris Paribus curves. 
+* [lime](https://github.com/thomasp85/lime); Local Interpretable Model-Agnostic Explanations (R port of original Python package)
+* [shapper](https://github.com/ModelOriented/shapper) **MI2**; An R wrapper of SHAP python library
+* [modelDown](https://github.com/MI2DataLab/modelDown) **MI2**; modelDown generates a website with HTML summaries for predictive models
+
+### 7. Model Maintenance
+
+* [drifter](https://github.com/ModelOriented/drifter) **MI2**; Concept Drift and Concept Shift Detection for Predictive Models
+* [archivist](https://github.com/pbiecek/archivist) **MI2**; A set of tools for datasets and plots archiving [paper](http://doi.org/10.18637/jss.v082.i11)
+
 ## Architecture of DrWhy
 
 `DrWhy` works on fully trained predictive models. Models can be created with any tool. 
