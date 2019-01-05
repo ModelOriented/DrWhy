@@ -4,7 +4,7 @@
 
 Please, note that DrWhy is under rapid development and is still maturing. If you are looking for a stable solution, please use the mature [DALEX](https://github.com/pbiecek/DALEX/) package.
 
-<center><img width="400" src="images/Hype_Cycle.svg"></center>
+![Hype_Cycle](images/Hype_Cycle.svg)
 
 ## Lifecycle for Predictive Models
 
