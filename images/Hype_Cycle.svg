@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="645.457px" height="432.481px" viewBox="0 0 645.457 432.481" enable-background="new 0 0 645.457 432.481"
+	 xml:space="preserve">
+<path fill="none" stroke="#343F92" stroke-width="5" d="M58.225,398.805c15.107-87.281,25.932-180.141,54.214-264.609
+	c31.17-93.095,54.139,17.688,65.097,53.934c11.354,37.558,23.177,74.976,34.309,112.601c26.534,89.678,79.275-25.287,92.183-45.57
+	c11.749-18.463,20.938-43.7,69.798-48.29c70.298-6.604,177.055-4.848,224.858-5.774"/>
+<g>
+	<polyline fill="none" stroke="#008BAC" stroke-width="3" points="51.355,69.034 51.355,405.676 594.866,405.676 	"/>
+	<path fill="#008BAC" d="M603.919,405.676c-4.261,1.58-9.546,4.277-12.82,7.131l2.58-7.131l-2.58-7.133
+		C594.375,401.399,599.659,404.096,603.919,405.676z"/>
+	<polygon fill="#008BAC" points="51.355,58.443 57.453,73.368 51.355,69.826 45.258,73.368 	"/>
+</g>
+<text transform="matrix(1 0 0 1 25.4006 35.3784)" font-family="'ArialNarrow'" font-size="36">Hype Cycle for Predictive Models</text>
+<text transform="matrix(1 0 0 1 542.9573 424.6919)" font-family="'ArialNarrow'" font-size="20">Time</text>
+<text transform="matrix(1 0 0 1 65.9656 392.6304)" font-family="'ArialNarrow'" font-size="20">I need a predictive model!</text>
+<text transform="matrix(1 0 0 1 123.7136 88.5923)" font-family="'ArialNarrow'" font-size="20">Wow, ML is so easy!!</text>
+<text transform="matrix(1 0 0 1 282.4167 318.5386)" font-family="'ArialNarrow'" font-size="20">OMG, my model is not working</text>
+<text transform="matrix(1 0 0 1 282.4167 342.5386)" font-family="'ArialNarrow'" font-size="20">on new data!!!</text>
+<text transform="matrix(1 0 0 1 380.5452 172.8599)" font-family="'ArialNarrow'" font-size="20">I need to understand the model</text>
+<text transform="matrix(1 0 0 1 380.5452 196.8599)" font-family="'ArialNarrow'" font-size="20">I need to use DrWhy!!!!</text>
+</svg>
