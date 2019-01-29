@@ -57,6 +57,19 @@ LIME-like explanations with interpretable features based on Ceteris Paribus curv
 * [drifter](https://github.com/ModelOriented/drifter) ![MI2](images/mi2.svg) Concept Drift and Concept Shift Detection for Predictive Models
 * [archivist](https://github.com/pbiecek/archivist) ![MI2](images/mi2.svg) A set of tools for datasets and plots archiving [paper](http://doi.org/10.18637/jss.v082.i11)
 
+## Tools status summary
+
+* ceterisParibus [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ceterisParibus)](https://cran.r-project.org/package=ceterisParibus) [![Build Status](https://api.travis-ci.org/pbiecek/ceterisParibus.png)](https://travis-ci.org/pbiecek/ceterisParibus) [![Coverage
+Status](https://img.shields.io/codecov/c/github/pbiecek/ceterisParibus/master.svg)](https://codecov.io/github/pbiecek/ceterisParibus?branch=master)
+* breakDown [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/breakDown)](https://cran.r-project.org/package=breakDown) [![Build Status](https://api.travis-ci.org/pbiecek/breakDown.png)](https://travis-ci.org/pbiecek/breakDown) [![Coverage
+Status](https://img.shields.io/codecov/c/github/pbiecek/breakDown/master.svg)](https://codecov.io/github/pbiecek/breakDown?branch=master)
+* DALEX [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/DALEX)](https://cran.r-project.org/package=DALEX) [![Build Status](https://api.travis-ci.org/pbiecek/DALEX.png)](https://travis-ci.org/pbiecek/DALEX) [![Coverage
+Status](https://img.shields.io/codecov/c/github/pbiecek/DALEX/master.svg)](https://codecov.io/github/pbiecek/DALEX?branch=master)
+
+
+
+
+
 ## Architecture of DrWhy
 
 `DrWhy` works on fully trained predictive models. Models can be created with any tool. 
