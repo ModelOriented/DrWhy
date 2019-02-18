@@ -92,44 +92,4 @@ Explainers for predictive models can be created with model agnostic or model spe
 
 ![Architecture of DrWhy](images/DrWhy.png)
 
-# Individual / Local
-
-## Individual Variable Attributions
-
-Variable attribution explainers implemented in the `breakDown2` package in the [local_attributions](https://pbiecek.github.io/breakDown2/reference/local_attributions.html) function.
-
-```
-breakDown2::local_attributions()
-```
-
-<img width="300px" src="images/local_attributions_1.jpg"/>
-&nbsp;&nbsp;<img width="300px" src="images/local_attributions_2.jpg"/>
-
-Variable attribution with interactions is calculated with the  [local_interactions](https://pbiecek.github.io/breakDown2/reference/local_interactions.html) function.
-
-```
-breakDown2::local_interactions()
-```
-
-<img width="300px" src="images/local_interactions_1.jpg"/>
-
-
-## Individual Variable Profiles
-
-Variable profile explainers (aka. Ceteris Paribus Profiles) are implemented in the `ceterisParibus2` package in the [individual_variable_profile](https://pbiecek.github.io/ceterisParibus2/reference/individual_variable_profile.html) function.
-
-```
-ceterisParibus2::individual_variable_profile()
-```
-
-<img width="300px" src="images/local_profile_1.jpg"/>
-
-# Model / Global
-
-## Model Variable Profiles
-
-## Model Variable Importance
-
-## Model Performance
-
 
