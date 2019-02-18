@@ -59,29 +59,29 @@ LIME-like explanations with interpretable features based on Ceteris Paribus curv
 
 ## Status summary
 
-* archivist [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/archivist)](https://cran.r-project.org/package=archivist) [![Build Status](https://api.travis-ci.org/pbiecek/archivist.png)](https://travis-ci.org/pbiecek/archivist) [![Coverage
+* archivist [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/archivist)](https://cran.r-project.org/package=archivist) [![Build Status](https://api.travis-ci.org/pbiecek/archivist.svg?branch=master)](https://travis-ci.org/pbiecek/archivist) [![Coverage
 Status](https://img.shields.io/codecov/c/github/pbiecek/archivist/master.svg)](https://codecov.io/github/pbiecek/archivist?branch=master)
-* ceterisParibus [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ceterisParibus)](https://cran.r-project.org/package=ceterisParibus) [![Build Status](https://api.travis-ci.org/pbiecek/ceterisParibus.png)](https://travis-ci.org/pbiecek/ceterisParibus) [![Coverage
+* ceterisParibus [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ceterisParibus)](https://cran.r-project.org/package=ceterisParibus) [![Build Status](https://api.travis-ci.org/pbiecek/ceterisParibus.svg?branch=master)](https://travis-ci.org/pbiecek/ceterisParibus) [![Coverage
 Status](https://img.shields.io/codecov/c/github/pbiecek/ceterisParibus/master.svg)](https://codecov.io/github/pbiecek/ceterisParibus?branch=master)
-* breakDown [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/breakDown)](https://cran.r-project.org/package=breakDown) [![Build Status](https://api.travis-ci.org/pbiecek/breakDown.png)](https://travis-ci.org/pbiecek/breakDown) [![Coverage
+* breakDown [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/breakDown)](https://cran.r-project.org/package=breakDown) [![Build Status](https://api.travis-ci.org/pbiecek/breakDown.svg?branch=master)](https://travis-ci.org/pbiecek/breakDown) [![Coverage
 Status](https://img.shields.io/codecov/c/github/pbiecek/breakDown/master.svg)](https://codecov.io/github/pbiecek/breakDown?branch=master)
 * DALEX [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/DALEX)](https://cran.r-project.org/package=DALEX) [![Build Status](https://api.travis-ci.org/pbiecek/DALEX.png)](https://travis-ci.org/pbiecek/DALEX) [![Coverage
 Status](https://img.shields.io/codecov/c/github/pbiecek/DALEX/master.svg)](https://codecov.io/github/pbiecek/DALEX?branch=master)
-* factorMerger [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/factorMerger)](https://cran.r-project.org/package=factorMerger) [![Build Status](https://api.travis-ci.org/MI2DataLab/factorMerger.png)](https://travis-ci.org/MI2DataLab/factorMerger) [![Coverage
+* factorMerger [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/factorMerger)](https://cran.r-project.org/package=factorMerger) [![Build Status](https://api.travis-ci.org/MI2DataLab/factorMerger.svg?branch=master)](https://travis-ci.org/MI2DataLab/factorMerger) [![Coverage
 Status](https://img.shields.io/codecov/c/github/MI2DataLab/factorMerger/master.svg)](https://codecov.io/github/MI2DataLab/factorMerger?branch=master)
-* modelDown [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/modelDown)](https://cran.r-project.org/package=modelDown) [![Build Status](https://api.travis-ci.org/MI2DataLab/modelDown.png)](https://travis-ci.org/MI2DataLab/modelDown) [![Coverage
+* modelDown [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/modelDown)](https://cran.r-project.org/package=modelDown) [![Build Status](https://api.travis-ci.org/MI2DataLab/modelDown.svg?branch=master)](https://travis-ci.org/MI2DataLab/modelDown) [![Coverage
 Status](https://img.shields.io/codecov/c/github/MI2DataLab/modelDown/master.svg)](https://codecov.io/github/MI2DataLab/modelDown?branch=master)
-* auditor [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/auditor)](https://cran.r-project.org/package=auditor) [![Build Status](https://api.travis-ci.org/MI2DataLab/auditor.png)](https://travis-ci.org/MI2DataLab/auditor) [![Coverage
+* auditor [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/auditor)](https://cran.r-project.org/package=auditor) [![Build Status](https://api.travis-ci.org/MI2DataLab/auditor.svg?branch=master)](https://travis-ci.org/MI2DataLab/auditor) [![Coverage
 Status](https://img.shields.io/codecov/c/github/MI2DataLab/auditor/master.svg)](https://codecov.io/github/MI2DataLab/auditor?branch=master)
-* shapper [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/shapper)](https://cran.r-project.org/package=shapper) [![Build Status](https://api.travis-ci.org/ModelOriented/shapper.png)](https://travis-ci.org/ModelOriented/shapper) [![Coverage
+* shapper [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/shapper)](https://cran.r-project.org/package=shapper) [![Build Status](https://api.travis-ci.org/ModelOriented/shapper.svg?branch=master)](https://travis-ci.org/ModelOriented/shapper) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/shapper/master.svg)](https://codecov.io/github/ModelOriented/shapper?branch=master)
-* ingredients [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ingredients)](https://cran.r-project.org/package=ingredients) [![Build Status](https://api.travis-ci.org/ModelOriented/ingredients.png)](https://travis-ci.org/ModelOriented/ingredients) [![Coverage
+* ingredients [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ingredients)](https://cran.r-project.org/package=ingredients) [![Build Status](https://api.travis-ci.org/ModelOriented/ingredients.svg?branch=master)](https://travis-ci.org/ModelOriented/ingredients) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/ingredients/master.svg)](https://codecov.io/github/ModelOriented/ingredients?branch=master)
-* drifter [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/drifter)](https://cran.r-project.org/package=drifter) [![Build Status](https://api.travis-ci.org/ModelOriented/drifter.png)](https://travis-ci.org/ModelOriented/drifter) [![Coverage
+* drifter [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/drifter)](https://cran.r-project.org/package=drifter) [![Build Status](https://api.travis-ci.org/ModelOriented/drifter.svg?branch=master)](https://travis-ci.org/ModelOriented/drifter) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/drifter/master.svg)](https://codecov.io/github/ModelOriented/drifter?branch=master)
 
 
-
+https://travis-ci.org/MI2DataLab/auditor.svg?branch=master
 
 
 ## Architecture of DrWhy
