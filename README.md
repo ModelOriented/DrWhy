@@ -81,9 +81,6 @@ Status](https://img.shields.io/codecov/c/github/ModelOriented/ingredients/master
 Status](https://img.shields.io/codecov/c/github/ModelOriented/drifter/master.svg)](https://codecov.io/github/ModelOriented/drifter?branch=master)
 
 
-https://travis-ci.org/MI2DataLab/auditor.svg?branch=master
-
-
 ## Architecture of DrWhy
 
 `DrWhy` works on fully trained predictive models. Models can be created with any tool. 
