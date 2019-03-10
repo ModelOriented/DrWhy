@@ -12,6 +12,8 @@ Please, note that DrWhy is under rapid development and is still maturing. If you
 
 Tools that are usefull during the model lifetime. ![MI2](images/mi2.svg) stands for our internal tools.
 
+![images/DrWhy.png](images/DrWhy.png)
+
 ### 1. Data Acquisition
 
 * [dataMaid](https://cran.r-project.org/web/packages/dataMaid/index.html); A Suite of Checks for Identification of Potential Errors in a Data Frame as Part of the Data Screening Process
