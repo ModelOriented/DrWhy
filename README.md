@@ -12,7 +12,7 @@ Please, note that DrWhy is under rapid development and is still maturing. If you
 
 Tools that are usefull during the model lifetime. ![MI2](images/mi2.svg) stands for our internal tools.
 
-![images/DrWhy.png](images/DrWhy.png)
+![images/DrWhyAI.png](images/DrWhyAI.png)
 
 ### 1. Data Acquisition
 
