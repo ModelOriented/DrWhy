@@ -1,4 +1,1 @@
-![d1.png](d1.png)
-![d2.png](d2.png)
-![d3.png](d3.png)
-![d4.png](d4.png)
+<img width="200" style="border: black 1px solid;" src="https://github.com/ModelOriented/DrWhy/blob/master/logo/d1.png"><img width="200" style="border: black 1px solid;" src="https://github.com/ModelOriented/DrWhy/blob/master/logo/d2.png"><img width="200" style="border: black 1px solid;" src="https://github.com/ModelOriented/DrWhy/blob/master/logo/d3.png"><img width="200" style="border: black 1px solid;" src="https://github.com/ModelOriented/DrWhy/blob/master/logo/d4.png">
