@@ -83,6 +83,8 @@ Status](https://img.shields.io/codecov/c/github/ModelOriented/shapper/master.svg
 Status](https://img.shields.io/codecov/c/github/ModelOriented/ingredients/master.svg)](https://codecov.io/github/ModelOriented/ingredients?branch=master)
 * drifter [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/drifter)](https://cran.r-project.org/package=drifter) [![Build Status](https://api.travis-ci.org/ModelOriented/drifter.svg?branch=master)](https://travis-ci.org/ModelOriented/drifter) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/drifter/master.svg)](https://codecov.io/github/ModelOriented/drifter?branch=master)
+* live [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/live)](https://CRAN.R-project.org/package=live) [![Total Downloads](http://cranlogs.r-pkg.org/badges/grand-total/live?color=orange)](https://cranlogs.r-pkg.org/badges/grand-total/live) [![Build Status](https://travis-ci.org/MI2DataLab/live.svg?branch=master)](https://travis-ci.org/MI2DataLab/live) [![Coverage Status](https://img.shields.io/codecov/c/github/MI2DataLab/live/master.svg)](https://codecov.io/github/MI2DataLab/live?branch=master)
+* localModel [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/localModel)](https://cran.r-project.org/package=localModel [![Travis-CI Build Status](https://travis-ci.org/ModelOriented/localModel.svg?branch=master)](https://travis-ci.org/ModelOriented/localModel) [![Coverage Status](https://img.shields.io/codecov/c/github/ModelOriented/localModel/master.svg)](https://codecov.io/github/ModelOriented/localModel?branch=master)
 
 
 ## Family of Model Explainers
