@@ -87,6 +87,14 @@ Status](https://img.shields.io/codecov/c/github/ModelOriented/drifter/master.svg
 
 * EIX [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/EIX)](https://cran.r-project.org/package=EIX) [![Travis-CI Build Status](https://travis-ci.org/ModelOriented/EIX.svg?branch=master)](https://travis-ci.org/ModelOriented/EIX) [![Coverage Status](https://img.shields.io/codecov/c/github/ModelOriented/EIX/master.svg)](https://codecov.io/github/ModelOriented/EIX?branch=master) (maintainer: [ekarbowiak](https://github.com/ekarbowiak))
 * xspliner [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/xspliner)](https://cran.r-project.org/package=xspliner) [![Travis-CI Build Status](https://travis-ci.org/ModelOriented/xspliner.svg?branch=master)](https://travis-ci.org/ModelOriented/xspliner) [![Coverage Status](https://img.shields.io/codecov/c/github/ModelOriented/xspliner/master.svg)](https://codecov.io/github/ModelOriented/xspliner?branch=master) [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/xspliner?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/xspliner)  (maintainer: [krystian8207](https://github.com/krystian8207))
+* pyDALEX [![Build Status](https://api.travis-ci.org/MI2DataLab/pyDALEX.svg?branch=master)](https://travis-ci.org/MI2DataLab/pyDALEX) [![Coverage
+Status](https://img.shields.io/codecov/c/github/MI2DataLab/pyDALEX/master.svg)](https://codecov.io/github/MI2DataLab/pyDALEX?branch=master)   (maintainer: [magda-tatarynowicz](https://github.com/magda-tatarynowicz))
+* SAFE [![Build Status](https://api.travis-ci.org/ModelOriented/SAFE.svg?branch=master)](https://travis-ci.org/ModelOriented/SAFE) [![Coverage
+Status](https://img.shields.io/codecov/c/github/ModelOriented/SAFE/master.svg)](https://codecov.io/github/ModelOriented/SAFE?branch=master)   (maintainer: [olagacek](https://github.com/olagacek))
+* pyCeterisParibus [![Build Status](https://api.travis-ci.org/ModelOriented/pyCeterisParibus.svg?branch=master)](https://travis-ci.org/ModelOriented/pyCeterisParibus) [![Coverage
+Status](https://img.shields.io/codecov/c/github/ModelOriented/pyCeterisParibus/master.svg)](https://codecov.io/github/ModelOriented/pyCeterisParibus?branch=master)   (maintainer: [kmichael08](https://github.com/kmichael08))
+* ceterisParibusD3 [![Build Status](https://api.travis-ci.org/ModelOriented/ceterisParibusD3.svg?branch=master)](https://travis-ci.org/ModelOriented/ceterisParibusD3) [![Coverage
+Status](https://img.shields.io/codecov/c/github/ModelOriented/ceterisParibusD3/master.svg)](https://codecov.io/github/ModelOriented/ceterisParibusD3?branch=master)   (maintainer: [flaminka](https://github.com/flaminka))
 
 
 
@@ -99,8 +107,14 @@ These packages contain useful features, are still in use but we are looking for 
 Status](https://img.shields.io/codecov/c/github/MI2DataLab/randomForestExplainer/master.svg)](https://codecov.io/github/MI2DataLab/randomForestExplainer?branch=master) [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/randomForestExplainer?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/randomForestExplainer) 
 * factorMerger [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/factorMerger)](https://cran.r-project.org/package=factorMerger) [![Build Status](https://api.travis-ci.org/MI2DataLab/factorMerger.svg?branch=master)](https://travis-ci.org/MI2DataLab/factorMerger) [![Coverage
 Status](https://img.shields.io/codecov/c/github/MI2DataLab/factorMerger/master.svg)](https://codecov.io/github/MI2DataLab/factorMerger?branch=master) [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/factorMerger?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/factorMerger)
+* cr17 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/cr17)](https://cran.r-project.org/package=cr17) [![Build Status](https://api.travis-ci.org/geneticsMiNIng/cr17.svg?branch=master)](https://travis-ci.org/geneticsMiNIng/cr17) [![Coverage
+Status](https://img.shields.io/codecov/c/github/geneticsMiNIng/cr17/master.svg)](https://codecov.io/github/geneticsMiNIng/cr17?branch=master) [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/cr17?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/cr17)
+* MLGenSig [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/MLGenSig)](https://cran.r-project.org/package=MLGenSig) [![Build Status](https://api.travis-ci.org/geneticsMiNIng/MLGenSig.svg?branch=master)](https://travis-ci.org/geneticsMiNIng/MLGenSig) [![Coverage
+Status](https://img.shields.io/codecov/c/github/geneticsMiNIng/MLGenSig/master.svg)](https://codecov.io/github/geneticsMiNIng/MLGenSig?branch=master) [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/MLGenSig?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/MLGenSig)
 * modelDown [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/modelDown)](https://cran.r-project.org/package=modelDown) [![Build Status](https://api.travis-ci.org/MI2DataLab/modelDown.svg?branch=master)](https://travis-ci.org/MI2DataLab/modelDown) [![Coverage
 Status](https://img.shields.io/codecov/c/github/MI2DataLab/modelDown/master.svg)](https://codecov.io/github/MI2DataLab/modelDown?branch=master) 
+* pyBreakDown [![Build Status](https://api.travis-ci.org/MI2DataLab/pyBreakDown.svg?branch=master)](https://travis-ci.org/MI2DataLab/pyBreakDown) [![Coverage
+Status](https://img.shields.io/codecov/c/github/MI2DataLab/pyBreakDown/master.svg)](https://codecov.io/github/MI2DataLab/pyBreakDown?branch=master) 
 
 
 
