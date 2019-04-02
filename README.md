@@ -91,7 +91,7 @@ Status](https://img.shields.io/codecov/c/github/ModelOriented/drifter/master.svg
 Status](https://img.shields.io/codecov/c/github/MI2DataLab/pyDALEX/master.svg)](https://codecov.io/github/MI2DataLab/pyDALEX?branch=master)   (maintainer: [magda-tatarynowicz](https://github.com/magda-tatarynowicz))
 * SAFE [![Build Status](https://api.travis-ci.org/ModelOriented/SAFE.svg?branch=master)](https://travis-ci.org/ModelOriented/SAFE) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/SAFE/master.svg)](https://codecov.io/github/ModelOriented/SAFE?branch=master)   (maintainer: [olagacek](https://github.com/olagacek))
-* pyCeterisParibus [![Build Status](https://api.travis-ci.org/ModelOriented/pyCeterisParibus.svg?branch=master)](https://travis-ci.org/ModelOriented/pyCeterisParibus) [![Coverage
+* pyCeterisParibus [![PyPI version](https://badge.fury.io/py/pyCeterisParibus.svg)](https://badge.fury.io/py/pyCeterisParibus)[![Build Status](https://api.travis-ci.org/ModelOriented/pyCeterisParibus.svg?branch=master)](https://travis-ci.org/ModelOriented/pyCeterisParibus) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/pyCeterisParibus/master.svg)](https://codecov.io/github/ModelOriented/pyCeterisParibus?branch=master)   (maintainer: [kmichael08](https://github.com/kmichael08))
 * ceterisParibusD3 [![Build Status](https://api.travis-ci.org/ModelOriented/ceterisParibusD3.svg?branch=master)](https://travis-ci.org/ModelOriented/ceterisParibusD3) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/ceterisParibusD3/master.svg)](https://codecov.io/github/ModelOriented/ceterisParibusD3?branch=master)   (maintainer: [flaminka](https://github.com/flaminka))
