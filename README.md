@@ -4,8 +4,6 @@
 
 Please, note that DrWhy is under rapid development and is still maturing. If you are looking for a stable solution, please use the mature [DALEX](https://github.com/pbiecek/DALEX/) package.
 
-![Hype_Cycle](images/Hype_Cycle.svg)
-
 ## Lifecycle for Predictive Models
 
 *It takes a village to raise a <del>child</del> model*.
@@ -148,5 +146,7 @@ Explainers for predictive models can be created with model agnostic or model spe
 
 
 ![Architecture of DrWhy](images/DrWhy.png)
+
+![Hype_Cycle](images/Hype_Cycle.svg)
 
 
