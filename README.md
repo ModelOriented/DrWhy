@@ -4,6 +4,10 @@
 
 Please, note that DrWhy is under rapid development and is still maturing. If you are looking for a stable solution, please use the mature [DALEX](https://github.com/pbiecek/DALEX/) package.
 
+## Visual Exploration, Explanation and Debugging
+
+The unified grammar beyond DrWhy.AI universe is described in the [Predictive Models: Visual Exploration, Explanation and Debugging](https://pbiecek.github.io/PM_VEE/) book.
+
 ## Lifecycle for Predictive Models
 
 *It takes a village to raise a <del>child</del> model*.
