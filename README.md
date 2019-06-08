@@ -1,20 +1,16 @@
-# DrWhy
-
-`DrWhy` is the collection of tools for Explainable AI (XAI). It's based on shared principles and simple grammar for exploration, explanation and visualisation of predictive models.
-
-Please, note that DrWhy is under rapid development and is still maturing. If you are looking for a stable solution, please use the mature [DALEX](https://github.com/pbiecek/DALEX/) package.
-
-## Visual Exploration, Explanation and Debugging
-
-The unified grammar beyond DrWhy.AI universe is described in the [Predictive Models: Visual Exploration, Explanation and Debugging](https://pbiecek.github.io/PM_VEE/) book.
-
-## Lifecycle for Predictive Models
+# DrWhy.AI - the collection of tools for Visual Exploration, Explanation and Debugging of Predictive Models
 
 *It takes a village to raise a <del>child</del> model*.
 
-Tools that are usefull during the model lifetime. ![MI2](images/mi2.svg) stands for our internal tools.
+The way how we do predictive modeling is very ineffective. We spend way too much time on manual time consuming and easy to automate activities like data cleaning and exploration, crisp modeling, model validation. Instead of focusing on model understanding, productisation and communication.
 
-![images/DrWhyAI.png](images/DrWhyAI.png)
+Here we gather tools that can be use to make out work more efficient through the whole model lifecycle.
+The unified grammar beyond DrWhy.AI universe is described in the [Predictive Models: Visual Exploration, Explanation and Debugging](https://pbiecek.github.io/PM_VEE/) book.
+
+
+## Lifecycle for Predictive Models
+
+Tools that are usefull during the model lifetime. ![MI2](images/mi2.svg) stands for our internal tools.
 
 ### 1. Data Acquisition
 
@@ -139,6 +135,8 @@ Status](https://img.shields.io/codecov/c/github/pbiecek/breakDown/master.svg)](h
 
 
 ## Family of Model Explainers
+
+![images/DrWhyAI.png](images/DrWhyAI.png)
 
 ![Family of Model Explainers](images/family.png)
 
