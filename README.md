@@ -2,6 +2,8 @@
 
 *It takes a village to raise a <del>child</del> model*.
 
+<img src="logo/drwhy_hex.png" alt="" align="right" width="200px"/>
+
 The way how we do predictive modeling is very ineffective. We spend way too much time on manual time consuming and easy to automate activities like data cleaning and exploration, crisp modeling, model validation. Instead of focusing on model understanding, productisation and communication.
 
 Here we gather tools that can be use to make out work more efficient through the whole model lifecycle.
