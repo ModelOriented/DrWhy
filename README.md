@@ -12,6 +12,8 @@ The unified grammar beyond DrWhy.AI universe is described in the [Predictive Mod
 
 ## Lifecycle for Predictive Models
 
+The DrWhy is based on an unified [Model Development Process](https://github.com/ModelOriented/DrWhy/blob/master/images/ModelDevelopmentProcess.pdf) based on RUP. Find an overview in the diagram below.
+
 ![images/diagramMDP.png](images/diagramMDP.png)
 
 Tools that are usefull during the model lifetime. ![MI2](images/mi2.svg) stands for our internal tools.
