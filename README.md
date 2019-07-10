@@ -22,6 +22,8 @@ Tools that are usefull during the model lifetime. ![MI2](images/mi2.svg) stands 
 
 * [dataMaid](https://cran.r-project.org/web/packages/dataMaid/index.html); A Suite of Checks for Identification of Potential Errors in a Data Frame as Part of the Data Screening Process
 * [inspectdf](https://cran.r-project.org/web/packages/inspectdf/index.html); A collection of utilities for columnwise summary, comparison and visualisation of data frames. 
+* [validate](https://github.com/data-cleaning/validate); Professional data validation for the R environment 
+* [errorlocate](https://github.com/data-cleaning/errorlocate); Find and replace erroneous fields in data using validation rules 
 * [ggplot2](https://ggplot2.tidyverse.org/); System for declaratively creating graphics, based on The Grammar of Graphics.
 
 ### 2. Data understanding
