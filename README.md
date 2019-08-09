@@ -146,7 +146,7 @@ Status](https://img.shields.io/codecov/c/github/pbiecek/breakDown/master.svg)](h
 
 `DrWhy` works on fully trained predictive models. Models can be created with any tool. 
 
-`DrWhy` uses `DALEX2` package to wrap model with additional matadata required for explanations, like validation data, predict function etc.
+`DrWhy` uses `DALEX2` package to wrap model with additional metadata required for explanations, like validation data, predict function etc.
 
 Explainers for predictive models can be created with model agnostic or model specific functions implemented in various packages.
 
