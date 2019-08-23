@@ -1,4 +1,4 @@
-# DrWhy.AI - the collection of tools for Visual Exploration, Explanation and Debugging of Predictive Models
+# Collection of tools for Visual Exploration, Explanation and Debugging of Predictive Models
 
 *It takes a village to raise a <del>child</del> model*.
 
@@ -8,6 +8,49 @@ The way how we do predictive modeling is very ineffective. We spend way too much
 
 Here we gather tools that can be use to make out work more efficient through the whole model lifecycle.
 The unified grammar beyond DrWhy.AI universe is described in the [Predictive Models: Visual Exploration, Explanation and Debugging](https://pbiecek.github.io/PM_VEE/) book.
+
+
+## The DrWhy.AI family
+
+Packages in the `DrWhy.AI` family of models may be divided into four classes.
+
+* **Model adapters**. Predictive models created with different tools have different structures, and different interfaces. Model adapters create uniform wrappers. This way other packages may operate on models in an unified way. `DALEX` is a lightweight package with generic interface. `DALEXtra` is a package with extensions for heavyweight interfaces like `scikitlearn`, `h2o`, `mlr`.
+
+* **Model agnostic explainers**. These packages implement specific methods for model exploration. They can be applied to a single model or they can compare different models. `ingregdients` implements variable specific techniques like Ceteris Paribus, Partial Dependency, Permutation based Feature Importance. `iBreakDown` implements techniques for variable attribution, like Break Down or SHAPley values. `auditor` implements techniques for model validation, residual diagnostic and performance diagnostic.
+
+* **Model specific explainers**. These packages implement model specific techniques. `randomForestExplainer` implements techniques for exploration of `randomForest` models. `EIX` implements techniques for exploration of gbm and xgboost models. `cr19` implements techniques for exploration of survival models. 
+
+* **Automated exploration**. These packages combine series of model exploration techniques and produce an automated report of website for model exploration. `dime` implements a dashboard generator for local and global interactive model exploration. `modelDown` implements a HTML website generator for global model cross comparison. 
+
+Here is a more detailed overview.
+
+
+### [DALEX](http://github.com/ModelOriented/DALEX) [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/DALEX)](https://cran.r-project.org/package=DALEX) [![Build Status](https://api.travis-ci.org/ModelOriented/DALEX.png)](https://travis-ci.org/ModelOriented/DALEX) [![Coverage
+Status](https://img.shields.io/codecov/c/github/ModelOriented/DALEX/master.svg)](https://codecov.io/github/ModelOriented/DALEX?branch=master) 
+
+The DALEX package (Descriptive mAchine Learning EXplanations) helps to understand how complex models are working. The main function [explain](https://modeloriented.github.io/DALEX/reference/explain.html) creates a wrapper around a predictive model. Wrapped models may then be explored and compared with a collection of local and global explainers. Recent developents from the area of Interpretable Machine Learning/eXplainable Artificial Intelligence.
+
+DALEX wraps methods from other packages, i.e. 'pdp' (Greenwell 2017) <doi:10.32614/RJ-2017-016>, 'ALEPlot' (Apley 2018) <arXiv:1612.08468>, 'factorMerger' (Sitko and Biecek 2017) <arXiv:1709.04412>,  'breakDown' package (Staniak and Biecek 2018) <doi:10.32614/RJ-2018-072>, (Fisher at al. 2018) <arXiv:1801.01489>.
+
+References: (Biecek 2018) <arXiv:1806.08915>.
+
+### [DALEXtra](http://github.com/ModelOriented/DALEXtra) 
+
+
+
+### [ingredients](http://github.com/ModelOriented/ingredients) 
+
+### [iBreakDown](http://github.com/ModelOriented/iBreakDown) 
+
+### [auditor](http://github.com/ModelOriented/auditor) 
+
+
+
+### [dime](http://github.com/ModelOriented/dime) 
+
+### [modelDown](http://github.com/ModelOriented/modelDown) 
+
+
 
 
 ## Lifecycle for Predictive Models
