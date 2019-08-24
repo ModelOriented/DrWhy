@@ -41,6 +41,7 @@ Vignettes:
 
 
 ### [ingredients](http://github.com/ModelOriented/ingredients) 
+
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ingredients)](https://cran.r-project.org/package=ingredients) [![Build Status](https://api.travis-ci.org/ModelOriented/ingredients.svg?branch=master)](https://travis-ci.org/ModelOriented/ingredients) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/ingredients/master.svg)](https://codecov.io/github/ModelOriented/ingredients?branch=master) 
 
@@ -56,6 +57,23 @@ Vignettes:
 * [Explanations in natural language](https://modeloriented.github.io/ingredients/articles/Describing-Explanations.html)
 
 ### [iBreakDown](http://github.com/ModelOriented/iBreakDown) 
+
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/iBreakDown)](https://cran.r-project.org/package=iBreakDown) [![Build Status](https://api.travis-ci.org/ModelOriented/iBreakDown.svg?branch=master)](https://travis-ci.org/ModelOriented/iBreakDown) [![Coverage
+Status](https://img.shields.io/codecov/c/github/ModelOriented/iBreakDown/master.svg)](https://codecov.io/github/ModelOriented/iBreakDown?branch=master) 
+
+The `iBreakDown` package is a model agnostic tool for explanation of predictions from black boxes ML models.
+Break Down Table shows contributions of every variable to a final prediction. 
+Break Down Plot presents variable contributions in a concise graphical way. 
+SHAP (Shapley Additive Attributions) values are calculated as average from random Break Down profiles.
+This package works for binary classifiers as well as regression models. 
+
+`iBreakDown` is a successor of the [breakDown](https://github.com/pbiecek/breakDown) package. It is faster (complexity O(p) instead of O(p^2)). It supports interactions and interactive explainers with D3.js plots.
+
+Vignettes: 
+
+* [General introduction: Survival on the RMS Titanic](https://modeloriented.github.io/iBreakDown/articles/vignette_iBreakDown_titanic.html),
+* [Explanations in natural language](https://modeloriented.github.io/iBreakDown/articles/vignette_iBreakDown_description.html)
+
 
 ### [auditor](http://github.com/ModelOriented/auditor) 
 
