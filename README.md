@@ -25,20 +25,33 @@ Packages in the `DrWhy.AI` family of models may be divided into four classes.
 Here is a more detailed overview.
 
 
-### [DALEX](http://github.com/ModelOriented/DALEX) [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/DALEX)](https://cran.r-project.org/package=DALEX) [![Build Status](https://api.travis-ci.org/ModelOriented/DALEX.png)](https://travis-ci.org/ModelOriented/DALEX) [![Coverage
+### [DALEX](http://github.com/ModelOriented/DALEX)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/DALEX)](https://cran.r-project.org/package=DALEX) [![Build Status](https://api.travis-ci.org/ModelOriented/DALEX.png)](https://travis-ci.org/ModelOriented/DALEX) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/DALEX/master.svg)](https://codecov.io/github/ModelOriented/DALEX?branch=master) 
 
 The DALEX package (Descriptive mAchine Learning EXplanations) helps to understand how complex models are working. The main function [explain](https://modeloriented.github.io/DALEX/reference/explain.html) creates a wrapper around a predictive model. Wrapped models may then be explored and compared with a collection of local and global explainers. Recent developents from the area of Interpretable Machine Learning/eXplainable Artificial Intelligence.
 
 DALEX wraps methods from other packages, i.e. 'pdp' (Greenwell 2017) <doi:10.32614/RJ-2017-016>, 'ALEPlot' (Apley 2018) <arXiv:1612.08468>, 'factorMerger' (Sitko and Biecek 2017) <arXiv:1709.04412>,  'breakDown' package (Staniak and Biecek 2018) <doi:10.32614/RJ-2018-072>, (Fisher at al. 2018) <arXiv:1801.01489>.
 
-References: (Biecek 2018) <arXiv:1806.08915>.
+Vignettes: 
+[Survival on the RMS Titanic](https://modeloriented.github.io/DALEX/articles/vignette_titanic.html)
 
 ### [DALEXtra](http://github.com/ModelOriented/DALEXtra) 
 
 
-
 ### [ingredients](http://github.com/ModelOriented/ingredients) 
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ingredients)](https://cran.r-project.org/package=ingredients) [![Build Status](https://api.travis-ci.org/ModelOriented/ingredients.svg?branch=master)](https://travis-ci.org/ModelOriented/ingredients) [![Coverage
+Status](https://img.shields.io/codecov/c/github/ModelOriented/ingredients/master.svg)](https://codecov.io/github/ModelOriented/ingredients?branch=master) 
+
+The `ingredients` package is a collection of tools for assessment of feature importance and feature effects.
+
+Key functions are: `feature_importance()` for assessment of global level feature importance, `ceteris_paribus()` for calculation of the Ceteris Paribus / What-If Profiles (read more at https://pbiecek.github.io/PM_VEE/ceterisParibus.html), `partial_dependency()` for Partial Dependency Plots, `conditional_dependency()` for Conditional Dependency Plots also called M Plots, `accumulated_dependency()` for Accumulated Local Effects Plots,  `cluster_profiles()` for aggregation of Ceteris Paribus Profiles, generic `print()` and `plot()` for better usability of selected explainers, generic `plotD3()` for interactive D3 based explanations, and generic `describe()` for explanations in natural language.
+
+
+Vignettes: 
+[General introductio](https://modeloriented.github.io/ingredients/articles/vignette_titanic.html),
+[Aspect importance](https://modeloriented.github.io/ingredients/articles/vignette_aspect_importance.html), 
+[Explanations in natural language](https://modeloriented.github.io/ingredients/articles/Describing-Explanations.html)
 
 ### [iBreakDown](http://github.com/ModelOriented/iBreakDown) 
 
@@ -111,8 +124,6 @@ These packages are actively developed and have active maintainer.
 
 * archivist [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/archivist)](https://cran.r-project.org/package=archivist) [![Build Status](https://api.travis-ci.org/pbiecek/archivist.svg?branch=master)](https://travis-ci.org/pbiecek/archivist) [![Coverage
 Status](https://img.shields.io/codecov/c/github/pbiecek/archivist/master.svg)](https://codecov.io/github/pbiecek/archivist?branch=master) [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/archivist?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/archivist) (maintainer: [pbiecek](https://github.com/pbiecek))
-* DALEX [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/DALEX)](https://cran.r-project.org/package=DALEX) [![Build Status](https://api.travis-ci.org/pbiecek/DALEX.png)](https://travis-ci.org/pbiecek/DALEX) [![Coverage
-Status](https://img.shields.io/codecov/c/github/pbiecek/DALEX/master.svg)](https://codecov.io/github/pbiecek/DALEX?branch=master) [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/DALEX?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/DALEX) (maintainer: [pbiecek](https://github.com/pbiecek))
 * auditor [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/auditor)](https://cran.r-project.org/package=auditor) [![Build Status](https://api.travis-ci.org/MI2DataLab/auditor.svg?branch=master)](https://travis-ci.org/MI2DataLab/auditor) [![Coverage
 Status](https://img.shields.io/codecov/c/github/MI2DataLab/auditor/master.svg)](https://codecov.io/github/MI2DataLab/auditor?branch=master) [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/auditor?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/auditor) (maintainer: [agosiewska](https://github.com/agosiewska))
 * survxai [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/survxai)](https://cran.r-project.org/package=survxai) [![Build Status](https://api.travis-ci.org/MI2DataLab/survxai.svg?branch=master)](https://travis-ci.org/MI2DataLab/survxai) [![Coverage
@@ -121,8 +132,6 @@ Status](https://img.shields.io/codecov/c/github/MI2DataLab/survxai/master.svg)](
 Status](https://img.shields.io/codecov/c/github/ModelOriented/shapper/master.svg)](https://codecov.io/github/ModelOriented/shapper?branch=master) [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/shapper?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/shapper) (maintainer: [maksymiuks](https://github.com/maksymiuks))
 * iBreakDown [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/iBreakDown)](https://cran.r-project.org/package=iBreakDown) [![Build Status](https://api.travis-ci.org/ModelOriented/drifter.svg?branch=master)](https://travis-ci.org/ModelOriented/drifter) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/iBreakDown/master.svg)](https://codecov.io/github/ModelOriented/iBreakDown?branch=master)[![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/iBreakDown?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/iBreakDown) (maintainer: [pbiecek](https://github.com/pbiecek))
-* ingredients [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ingredients)](https://cran.r-project.org/package=ingredients) [![Build Status](https://api.travis-ci.org/ModelOriented/ingredients.svg?branch=master)](https://travis-ci.org/ModelOriented/ingredients) [![Coverage
-Status](https://img.shields.io/codecov/c/github/ModelOriented/ingredients/master.svg)](https://codecov.io/github/ModelOriented/ingredients?branch=master) (maintainer: [pbiecek](https://github.com/pbiecek))
 * drifter [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/drifter)](https://cran.r-project.org/package=drifter) [![Build Status](https://api.travis-ci.org/ModelOriented/drifter.svg?branch=master)](https://travis-ci.org/ModelOriented/drifter) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/drifter/master.svg)](https://codecov.io/github/ModelOriented/drifter?branch=master) (maintainer: [pbiecek](https://github.com/pbiecek))
 * localModel [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/localModel)](https://cran.r-project.org/package=localModel) [![Travis-CI Build Status](https://travis-ci.org/ModelOriented/localModel.svg?branch=master)](https://travis-ci.org/ModelOriented/localModel) [![Coverage Status](https://img.shields.io/codecov/c/github/ModelOriented/localModel/master.svg)](https://codecov.io/github/ModelOriented/localModel?branch=master) (maintainer: [mstaniak](https://github.com/mstaniak))
