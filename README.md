@@ -34,7 +34,8 @@ The DALEX package (Descriptive mAchine Learning EXplanations) helps to understan
 DALEX wraps methods from other packages, i.e. 'pdp' (Greenwell 2017) <doi:10.32614/RJ-2017-016>, 'ALEPlot' (Apley 2018) <arXiv:1612.08468>, 'factorMerger' (Sitko and Biecek 2017) <arXiv:1709.04412>,  'breakDown' package (Staniak and Biecek 2018) <doi:10.32614/RJ-2018-072>, (Fisher at al. 2018) <arXiv:1801.01489>.
 
 Vignettes: 
-[Survival on the RMS Titanic](https://modeloriented.github.io/DALEX/articles/vignette_titanic.html)
+
+* [General ingtroduction: Survival on the RMS Titanic](https://modeloriented.github.io/DALEX/articles/vignette_titanic.html)
 
 ### [DALEXtra](http://github.com/ModelOriented/DALEXtra) 
 
@@ -49,9 +50,10 @@ Key functions are: `feature_importance()` for assessment of global level feature
 
 
 Vignettes: 
-[General introduction](https://modeloriented.github.io/ingredients/articles/vignette_titanic.html),
-[Aspect importance](https://modeloriented.github.io/ingredients/articles/vignette_aspect_importance.html), 
-[Explanations in natural language](https://modeloriented.github.io/ingredients/articles/Describing-Explanations.html)
+
+* [General introduction: Survival on the RMS Titanic](https://modeloriented.github.io/ingredients/articles/vignette_titanic.html),
+* [Aspects importance](https://modeloriented.github.io/ingredients/articles/vignette_aspect_importance.html), 
+* [Explanations in natural language](https://modeloriented.github.io/ingredients/articles/Describing-Explanations.html)
 
 ### [iBreakDown](http://github.com/ModelOriented/iBreakDown) 
 
@@ -60,6 +62,19 @@ Vignettes:
 
 
 ### [dime](http://github.com/ModelOriented/dime) 
+
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/dime)](https://cran.r-project.org/package=dime) [![Build Status](https://api.travis-ci.org/ModelOriented/dime.svg?branch=master)](https://travis-ci.org/ModelOriented/dime) [![Coverage
+Status](https://img.shields.io/codecov/c/github/ModelOriented/dime/master.svg)](https://codecov.io/github/ModelOriented/dime?branch=master) 
+
+The `dime` package automate interactive explanation and exploration machine learning predictive models.  This package generates advanced interactive and animated model explanations in the form  of serverless HTML site. It combines R with D3.js to produce plots and descriptions  for local and global explanations. The whole is greater than the sum of its parts,  so it also supports EDA on top of that. ModelStudio is a fast and condensed way to get  all the answers without much effort. Break down your model and look into its ingredients  with only a few lines of code.
+
+The key function is `modelStudio()` which generates interactive studio to explain predictive model. 
+
+Vignettes: 
+
+* [General introduction: modelStudio - perks and features](https://modeloriented.github.io/dime/articles/vignette_modelStudio.html)
+
+
 
 ### [modelDown](http://github.com/ModelOriented/modelDown) 
 
