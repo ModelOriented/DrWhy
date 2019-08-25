@@ -26,6 +26,7 @@ Here is a more detailed overview.
 
 
 ### [DALEX](http://github.com/ModelOriented/DALEX)
+
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/DALEX)](https://cran.r-project.org/package=DALEX) [![Build Status](https://api.travis-ci.org/ModelOriented/DALEX.png)](https://travis-ci.org/ModelOriented/DALEX) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/DALEX/master.svg)](https://codecov.io/github/ModelOriented/DALEX?branch=master) 
 
@@ -39,6 +40,15 @@ Vignettes:
 
 ### [DALEXtra](http://github.com/ModelOriented/DALEXtra) 
 
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/DALEXtra)](https://cran.r-project.org/package=DALEXtra) [![Build Status](https://api.travis-ci.org/ModelOriented/DALEXtra.png)](https://travis-ci.org/ModelOriented/DALEXtra) [![Coverage
+Status](https://img.shields.io/codecov/c/github/ModelOriented/DALEXtra/master.svg)](https://codecov.io/github/ModelOriented/DALEXtra?branch=master) 
+
+The `DALEXtra` package is an extension pack for [DALEX](https://modeloriented.github.io/DALEX) package.
+This package provides easy to use connectors for models created with scikitlearn, keras, H2O, mljar and mlr.
+
+Vignettes: 
+
+* [General ingtroduction: DALEX with scikitlearn models](https://raw.githack.com/pbiecek/DALEX_docs/master/vignettes/How_to_use_DALEXtra_to_explain_and_visualize_scikitlearn_models.html)
 
 ### [ingredients](http://github.com/ModelOriented/ingredients) 
 
