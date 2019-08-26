@@ -95,6 +95,15 @@ Vignettes:
 
 ### [auditor](http://github.com/ModelOriented/auditor) 
 
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/auditor)](https://cran.r-project.org/package=auditor) [![Build Status](https://api.travis-ci.org/ModelOriented/auditor.svg?branch=master)](https://travis-ci.org/ModelOriented/auditor) [![Coverage
+Status](https://img.shields.io/codecov/c/github/ModelOriented/auditor/master.svg)](https://codecov.io/github/ModelOriented/auditor?branch=master) 
+
+Package `auditor` is a tool for model-agnostic validation. Implemented techniques facilitate assessing and comparing the goodness of fit and performance of models. In addition, they may be used for the analysis of the similarity of residuals and for the identification of outliers and influential observations. The examination is carried out by diagnostic scores and visual verification. Due to the flexible and consistent grammar, it is simple to validate models of any classes.
+
+Learn more: 
+
+* Preprint: [auditor: an R Package for Model-Agnostic Visual Validation and Diagnostic](https://arxiv.org/abs/1809.07763),
+* [List of implemented audits](https://github.com/ModelOriented/auditor#a-short-overview-of-plots)
 
 
 --------------------
