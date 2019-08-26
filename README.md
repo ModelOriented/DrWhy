@@ -24,6 +24,7 @@ Packages in the `DrWhy.AI` family of models may be divided into four classes.
 
 Here is a more detailed overview.
 
+--------------------
 
 ### [DALEX](http://github.com/ModelOriented/DALEX)
 
@@ -38,6 +39,8 @@ Vignettes:
 
 * [General ingtroduction: Survival on the RMS Titanic](https://modeloriented.github.io/DALEX/articles/vignette_titanic.html)
 
+--------------------
+
 ### [DALEXtra](http://github.com/ModelOriented/DALEXtra) 
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/DALEXtra)](https://cran.r-project.org/package=DALEXtra) [![Build Status](https://api.travis-ci.org/ModelOriented/DALEXtra.png)](https://travis-ci.org/ModelOriented/DALEXtra) [![Coverage
@@ -49,6 +52,8 @@ This package provides easy to use connectors for models created with scikitlearn
 Vignettes: 
 
 * [General ingtroduction: DALEX with scikitlearn models](https://raw.githack.com/pbiecek/DALEX_docs/master/vignettes/How_to_use_DALEXtra_to_explain_and_visualize_scikitlearn_models.html)
+
+--------------------
 
 ### [ingredients](http://github.com/ModelOriented/ingredients) 
 
@@ -65,6 +70,8 @@ Vignettes:
 * [General introduction: Survival on the RMS Titanic](https://modeloriented.github.io/ingredients/articles/vignette_titanic.html),
 * [Aspects importance](https://modeloriented.github.io/ingredients/articles/vignette_aspect_importance.html), 
 * [Explanations in natural language](https://modeloriented.github.io/ingredients/articles/Describing-Explanations.html)
+
+--------------------
 
 ### [iBreakDown](http://github.com/ModelOriented/iBreakDown) 
 
@@ -84,10 +91,13 @@ Vignettes:
 * [General introduction: Survival on the RMS Titanic](https://modeloriented.github.io/iBreakDown/articles/vignette_iBreakDown_titanic.html),
 * [Explanations in natural language](https://modeloriented.github.io/iBreakDown/articles/vignette_iBreakDown_description.html)
 
+--------------------
 
 ### [auditor](http://github.com/ModelOriented/auditor) 
 
 
+
+--------------------
 
 ### [dime](http://github.com/ModelOriented/dime) 
 
@@ -102,12 +112,30 @@ Vignettes:
 
 * [General introduction: modelStudio - perks and features](https://modeloriented.github.io/dime/articles/vignette_modelStudio.html)
 
-
+--------------------
 
 ### [modelDown](http://github.com/ModelOriented/modelDown) 
 
 
 
+--------------------
+
+### [archivist](http://github.com/pbiecek/archivist) 
+
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/archivist)](https://cran.r-project.org/package=archivist) [![Build Status](https://api.travis-ci.org/pbiecek/archivist.svg?branch=master)](https://travis-ci.org/pbiecek/archivist) [![Coverage
+Status](https://img.shields.io/codecov/c/github/pbiecek/archivist/master.svg)](https://codecov.io/github/pbiecek/archivist?branch=master) 
+
+The `archivist` package automate serialization and deserializtaion of R objects. Objects are stored with additional metadata to faciliate reproducibility and governance of data science projects. 
+
+Everything that exists in R is an object. `archivist` is an R package that stores copies of all objects along with their metadata. It helps to manage and recreate objects with final or partial results from data analysis. Use `archivist` to record every result, to share these results with future you or with others, to search through repository of objects created in the past but needed now.
+
+Learn more: 
+
+* [Cheatsheet](https://github.com/pbiecek/archivist/raw/master/cheatsheets/archivistCheatsheet.png)
+* [JSS article](http://doi.org/10.18637/jss.v082.i11)
+
+
+--------------------
 
 ## Lifecycle for Predictive Models
 
@@ -158,77 +186,6 @@ LIME-like explanations with interpretable features based on Ceteris Paribus curv
 * [modelDown](https://github.com/MI2DataLab/modelDown) ![MI2](images/mi2.svg) modelDown generates a website with HTML summaries for predictive models
 * [drifter](https://github.com/ModelOriented/drifter) ![MI2](images/mi2.svg) Concept Drift and Concept Shift Detection for Predictive Models
 * [archivist](https://github.com/pbiecek/archivist) ![MI2](images/mi2.svg) A set of tools for datasets and plots archiving [paper](http://doi.org/10.18637/jss.v082.i11)
-
-# DrWhy.AI indicator panel
-
-## Active development and maintenance
-
-These packages are actively developed and have active maintainer.
-
-* archivist [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/archivist)](https://cran.r-project.org/package=archivist) [![Build Status](https://api.travis-ci.org/pbiecek/archivist.svg?branch=master)](https://travis-ci.org/pbiecek/archivist) [![Coverage
-Status](https://img.shields.io/codecov/c/github/pbiecek/archivist/master.svg)](https://codecov.io/github/pbiecek/archivist?branch=master) [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/archivist?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/archivist) (maintainer: [pbiecek](https://github.com/pbiecek))
-* auditor [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/auditor)](https://cran.r-project.org/package=auditor) [![Build Status](https://api.travis-ci.org/MI2DataLab/auditor.svg?branch=master)](https://travis-ci.org/MI2DataLab/auditor) [![Coverage
-Status](https://img.shields.io/codecov/c/github/MI2DataLab/auditor/master.svg)](https://codecov.io/github/MI2DataLab/auditor?branch=master) [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/auditor?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/auditor) (maintainer: [agosiewska](https://github.com/agosiewska))
-* survxai [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/survxai)](https://cran.r-project.org/package=survxai) [![Build Status](https://api.travis-ci.org/MI2DataLab/survxai.svg?branch=master)](https://travis-ci.org/MI2DataLab/survxai) [![Coverage
-Status](https://img.shields.io/codecov/c/github/MI2DataLab/survxai/master.svg)](https://codecov.io/github/MI2DataLab/survxai?branch=master) [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/survxai?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/survxai) (maintainer: [agosiewska](https://github.com/agosiewska))
-* shapper [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/shapper)](https://cran.r-project.org/package=shapper) [![Build Status](https://api.travis-ci.org/ModelOriented/shapper.svg?branch=master)](https://travis-ci.org/ModelOriented/shapper) [![Coverage
-Status](https://img.shields.io/codecov/c/github/ModelOriented/shapper/master.svg)](https://codecov.io/github/ModelOriented/shapper?branch=master) [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/shapper?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/shapper) (maintainer: [maksymiuks](https://github.com/maksymiuks))
-* iBreakDown [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/iBreakDown)](https://cran.r-project.org/package=iBreakDown) [![Build Status](https://api.travis-ci.org/ModelOriented/drifter.svg?branch=master)](https://travis-ci.org/ModelOriented/drifter) [![Coverage
-Status](https://img.shields.io/codecov/c/github/ModelOriented/iBreakDown/master.svg)](https://codecov.io/github/ModelOriented/iBreakDown?branch=master)[![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/iBreakDown?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/iBreakDown) (maintainer: [pbiecek](https://github.com/pbiecek))
-* drifter [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/drifter)](https://cran.r-project.org/package=drifter) [![Build Status](https://api.travis-ci.org/ModelOriented/drifter.svg?branch=master)](https://travis-ci.org/ModelOriented/drifter) [![Coverage
-Status](https://img.shields.io/codecov/c/github/ModelOriented/drifter/master.svg)](https://codecov.io/github/ModelOriented/drifter?branch=master) (maintainer: [pbiecek](https://github.com/pbiecek))
-* localModel [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/localModel)](https://cran.r-project.org/package=localModel) [![Travis-CI Build Status](https://travis-ci.org/ModelOriented/localModel.svg?branch=master)](https://travis-ci.org/ModelOriented/localModel) [![Coverage Status](https://img.shields.io/codecov/c/github/ModelOriented/localModel/master.svg)](https://codecov.io/github/ModelOriented/localModel?branch=master) (maintainer: [mstaniak](https://github.com/mstaniak))
-* modelDown [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/modelDown)](https://cran.r-project.org/package=modelDown) [![Travis-CI Build Status](https://travis-ci.org/MI2DataLab/modelDown.svg?branch=master)](https://travis-ci.org/MI2DataLab/modelDown) [![Coverage Status](https://img.shields.io/codecov/c/github/MI2DataLab/modelDown/master.svg)](https://codecov.io/github/MI2DataLab/modelDown?branch=master) (maintainer: [magda-tatarynowicz](https://github.com/magda-tatarynowicz))
-
-## Experimental pre-seed phase (under active development)
-
-* vivo [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/vivo)](https://cran.r-project.org/package=vivo) [![Travis-CI Build Status](https://travis-ci.org/mi2datalab/vivo.svg?branch=master)](https://travis-ci.org/mi2datalab/vivo) [![Coverage Status](https://img.shields.io/codecov/c/github/mi2datalab/vivo/master.svg)](https://codecov.io/github/mi2datalab/vivo?branch=master) (maintainer: [kozaka93](https://github.com/kozaka93))
-* EIX [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/EIX)](https://cran.r-project.org/package=EIX) [![Travis-CI Build Status](https://travis-ci.org/ModelOriented/EIX.svg?branch=master)](https://travis-ci.org/ModelOriented/EIX) [![Coverage Status](https://img.shields.io/codecov/c/github/ModelOriented/EIX/master.svg)](https://codecov.io/github/ModelOriented/EIX?branch=master) (maintainer: [ekarbowiak](https://github.com/ekarbowiak))
-* xspliner [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/xspliner)](https://cran.r-project.org/package=xspliner) [![Travis-CI Build Status](https://travis-ci.org/ModelOriented/xspliner.svg?branch=master)](https://travis-ci.org/ModelOriented/xspliner) [![Coverage Status](https://img.shields.io/codecov/c/github/ModelOriented/xspliner/master.svg)](https://codecov.io/github/ModelOriented/xspliner?branch=master) [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/xspliner?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/xspliner)  (maintainer: [krystian8207](https://github.com/krystian8207))
-* pyDALEX [![Build Status](https://api.travis-ci.org/MI2DataLab/pyDALEX.svg?branch=master)](https://travis-ci.org/MI2DataLab/pyDALEX) [![Coverage
-Status](https://img.shields.io/codecov/c/github/MI2DataLab/pyDALEX/master.svg)](https://codecov.io/github/MI2DataLab/pyDALEX?branch=master)   (maintainer: [magda-tatarynowicz](https://github.com/magda-tatarynowicz))
-* SAFE for R [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/SAFE)](https://cran.r-project.org/package=SAFE) [![Travis-CI Build Status](https://travis-ci.org/MI2DataLab/SAFE.svg?branch=master)](https://travis-ci.org/MI2DataLab/SAFE) [![Coverage Status](https://img.shields.io/codecov/c/github/MI2DataLab/SAFE/master.svg)](https://codecov.io/github/MI2DataLab/SAFE?branch=master) [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/SAFE?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/SAFE)  (maintainer: [AnnaGierlak](https://github.com/AnnaGierlak))
-* SAFE for Python [![Downloads](https://pepy.tech/badge/safe-transformer)](https://pepy.tech/project/safe-transformer)[![PyPI version](https://badge.fury.io/py/safe-transformer.svg)](https://badge.fury.io/py/safe-transformer)[![Build Status](https://api.travis-ci.org/ModelOriented/SAFE.svg?branch=master)](https://travis-ci.org/ModelOriented/SAFE) [![Coverage
-Status](https://img.shields.io/codecov/c/github/ModelOriented/SAFE/master.svg)](https://codecov.io/github/ModelOriented/SAFE?branch=master)   (maintainer: [olagacek](https://github.com/olagacek))
-* pyCeterisParibus [![Downloads](https://pepy.tech/badge/pyCeterisParibus)](https://pepy.tech/project/pyCeterisParibus)[![PyPI version](https://badge.fury.io/py/pyCeterisParibus.svg)](https://badge.fury.io/py/pyCeterisParibus)[![Build Status](https://api.travis-ci.org/ModelOriented/pyCeterisParibus.svg?branch=master)](https://travis-ci.org/ModelOriented/pyCeterisParibus) [![Coverage
-Status](https://img.shields.io/codecov/c/github/ModelOriented/pyCeterisParibus/master.svg)](https://codecov.io/github/ModelOriented/pyCeterisParibus?branch=master)   (maintainer: [kmichael08](https://github.com/kmichael08))
-* ceterisParibusD3 [![Build Status](https://api.travis-ci.org/ModelOriented/ceterisParibusD3.svg?branch=master)](https://travis-ci.org/ModelOriented/ceterisParibusD3) [![Coverage
-Status](https://img.shields.io/codecov/c/github/ModelOriented/ceterisParibusD3/master.svg)](https://codecov.io/github/ModelOriented/ceterisParibusD3?branch=master)   (maintainer: [flaminka](https://github.com/flaminka))
-
-
-
-
-## Experimental or without maintenance (looking for maintainer!!!)
-
-These packages contain useful features, are still in use but we are looking for an active maintainer.
-
-* randomForestExplainer [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/randomForestExplainer)](https://cran.r-project.org/package=randomForestExplainer) [![Build Status](https://api.travis-ci.org/MI2DataLab/randomForestExplainer.svg?branch=master)](https://travis-ci.org/MI2DataLab/randomForestExplainer) [![Coverage
-Status](https://img.shields.io/codecov/c/github/MI2DataLab/randomForestExplainer/master.svg)](https://codecov.io/github/MI2DataLab/randomForestExplainer?branch=master) [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/randomForestExplainer?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/randomForestExplainer) 
-* factorMerger [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/factorMerger)](https://cran.r-project.org/package=factorMerger) [![Build Status](https://api.travis-ci.org/MI2DataLab/factorMerger.svg?branch=master)](https://travis-ci.org/MI2DataLab/factorMerger) [![Coverage
-Status](https://img.shields.io/codecov/c/github/MI2DataLab/factorMerger/master.svg)](https://codecov.io/github/MI2DataLab/factorMerger?branch=master) [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/factorMerger?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/factorMerger)
-* cr17 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/cr17)](https://cran.r-project.org/package=cr17) [![Build Status](https://api.travis-ci.org/geneticsMiNIng/cr17.svg?branch=master)](https://travis-ci.org/geneticsMiNIng/cr17) [![Coverage
-Status](https://img.shields.io/codecov/c/github/geneticsMiNIng/cr17/master.svg)](https://codecov.io/github/geneticsMiNIng/cr17?branch=master) [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/cr17?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/cr17)
-* MLGenSig [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/MLGenSig)](https://cran.r-project.org/package=MLGenSig) [![Build Status](https://api.travis-ci.org/geneticsMiNIng/MLGenSig.svg?branch=master)](https://travis-ci.org/geneticsMiNIng/MLGenSig) [![Coverage
-Status](https://img.shields.io/codecov/c/github/geneticsMiNIng/MLGenSig/master.svg)](https://codecov.io/github/geneticsMiNIng/MLGenSig?branch=master) [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/MLGenSig?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/MLGenSig)
-* pyBreakDown [![Build Status](https://api.travis-ci.org/MI2DataLab/pyBreakDown.svg?branch=master)](https://travis-ci.org/MI2DataLab/pyBreakDown) [![Coverage
-Status](https://img.shields.io/codecov/c/github/MI2DataLab/pyBreakDown/master.svg)](https://codecov.io/github/MI2DataLab/pyBreakDown?branch=master) 
-
-
-
-## In the sunset phase, without maintenance
-
-Key features from these packages are copied to another packages.
-
-* ceterisParibus [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ceterisParibus)](https://cran.r-project.org/package=ceterisParibus) [![Build Status](https://api.travis-ci.org/pbiecek/ceterisParibus.svg?branch=master)](https://travis-ci.org/pbiecek/ceterisParibus) [![Coverage
-Status](https://img.shields.io/codecov/c/github/pbiecek/ceterisParibus/master.svg)](https://codecov.io/github/pbiecek/ceterisParibus?branch=master) [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/ceterisParibus?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/ceterisParibus) (development moved to `ingredients`)
-* ceterisParibus2 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ceterisParibus2)](https://cran.r-project.org/package=ceterisParibus2) [![Build Status](https://api.travis-ci.org/ModelOriented/ceterisParibus2.svg?branch=master)](https://travis-ci.org/ModelOriented/ceterisParibus2) [![Coverage
-Status](https://img.shields.io/codecov/c/github/ModelOriented/ceterisParibus2/master.svg)](https://codecov.io/github/ModelOriented/ceterisParibus2?branch=master)  (development moved to `ingredients`)
-* DALEX2 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/DALEX2)](https://cran.r-project.org/package=DALEX2) [![Build Status](https://api.travis-ci.org/ModelOriented/DALEX2.svg?branch=master)](https://travis-ci.org/ModelOriented/DALEX2) [![Coverage
-Status](https://img.shields.io/codecov/c/github/ModelOriented/DALEX2/master.svg)](https://codecov.io/github/ModelOriented/DALEX2?branch=master)[![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/DALEX2?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/DALEX2) (development moved to `DALEX`)
-* breakDown [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/breakDown)](https://cran.r-project.org/package=breakDown) [![Build Status](https://api.travis-ci.org/pbiecek/breakDown.svg?branch=master)](https://travis-ci.org/pbiecek/breakDown) [![Coverage
-Status](https://img.shields.io/codecov/c/github/pbiecek/breakDown/master.svg)](https://codecov.io/github/pbiecek/breakDown?branch=master) [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/breakDown?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/breakDown) (development moved to `iBreakDown`)
-* live [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/live)](https://CRAN.R-project.org/package=live) [![Total Downloads](http://cranlogs.r-pkg.org/badges/grand-total/live?color=orange)](https://cranlogs.r-pkg.org/badges/grand-total/live) [![Build Status](https://travis-ci.org/MI2DataLab/live.svg?branch=master)](https://travis-ci.org/MI2DataLab/live) [![Coverage Status](https://img.shields.io/codecov/c/github/MI2DataLab/live/master.svg)](https://codecov.io/github/MI2DataLab/live?branch=master)[![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/live?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/live) (development moved to `localModel`)
-
 
 
 ## Family of Model Explainers
