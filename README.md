@@ -125,6 +125,15 @@ Vignettes:
 
 ### [modelDown](http://github.com/ModelOriented/modelDown) 
 
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/modelDown)](https://cran.r-project.org/package=modelDown) [![Build Status](https://api.travis-ci.org/ModelOriented/modelDown.svg?branch=master)](https://travis-ci.org/ModelOriented/modelDown) [![Coverage
+Status](https://img.shields.io/codecov/c/github/ModelOriented/modelDown/master.svg)](https://codecov.io/github/ModelOriented/modelDown?branch=master) 
+
+The`modelDown` package generates a website with HTML summaries for predictive models. Is uses `DALEX` explainers to compute and plot summaries of how given models behave. We can see how well models behave (*Model Performance*, *Auditor*), how much each variable contributes to predictions (*Variable Response*) and which variables are the most important for a given model (*Variable Importance*). We can also compare Concept Drift for pairs of models (*Drifter*). Additionally, data available on the website can be easily recreated in current R session (using archivist package).
+
+Learn more: 
+
+* [Getting started](https://modeloriented.github.io/modelDown/getting-started)
+* [JOSS paper: modelDown: automated website generator with interpretable documentation for predictive machine learning models](https://joss.theoj.org/papers/10.21105/joss.01444)
 
 
 --------------------
