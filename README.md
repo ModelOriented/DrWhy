@@ -2,8 +2,6 @@
 
 *It takes a village to raise a <del>child</del> model*.
 
-<img src="logo/drwhy_hex.png" alt="" align="right" width="200px"/>
-
 The way how we do predictive modeling is very ineffective. We spend way too much time on manual time consuming and easy to automate activities like data cleaning and exploration, crisp modeling, model validation. Instead of focusing on model understanding, productisation and communication.
 
 Here we gather tools that can be use to make out work more efficient through the whole model lifecycle.
@@ -42,7 +40,7 @@ DALEX wraps methods from other packages, i.e. 'pdp' (Greenwell 2017) <doi:10.326
 
 Vignettes: 
 
-* [General ingtroduction: Survival on the RMS Titanic](https://modeloriented.github.io/DALEX/articles/vignette_titanic.html)
+* [General introduction: Survival on the RMS Titanic](https://modeloriented.github.io/DALEX/articles/vignette_titanic.html)
 
 --------------------
 
@@ -56,7 +54,7 @@ This package provides easy to use connectors for models created with scikitlearn
 
 Vignettes: 
 
-* [General ingtroduction: DALEX with scikitlearn models](https://raw.githack.com/pbiecek/DALEX_docs/master/vignettes/How_to_use_DALEXtra_to_explain_and_visualize_scikitlearn_models.html)
+* [General introduction: DALEX with scikitlearn models](https://raw.githack.com/pbiecek/DALEX_docs/master/vignettes/How_to_use_DALEXtra_to_explain_and_visualize_scikitlearn_models.html)
 
 --------------------
 
