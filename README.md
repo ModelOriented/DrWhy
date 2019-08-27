@@ -9,6 +9,11 @@ The way how we do predictive modeling is very ineffective. We spend way too much
 Here we gather tools that can be use to make out work more efficient through the whole model lifecycle.
 The unified grammar beyond DrWhy.AI universe is described in the [Predictive Models: Visual Exploration, Explanation and Debugging](https://pbiecek.github.io/PM_VEE/) book.
 
+## Lifecycle for Predictive Models
+
+The DrWhy is based on an unified [Model Development Process](https://github.com/ModelOriented/DrWhy/blob/master/images/ModelDevelopmentProcess.pdf) inspired by RUP. Find an overview in the diagram below.
+
+[![images/DALEXverse.png](images/DALEXverse.png)]( https://modeloriented.github.io/ModelDevelopmentProcess/ )
 
 ## The DrWhy.AI family
 
@@ -108,6 +113,32 @@ Learn more:
 
 --------------------
 
+### [vivo](http://github.com/ModelOriented/vivo) 
+
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/vivo)](https://cran.r-project.org/package=vivo) [![Build Status](https://api.travis-ci.org/ModelOriented/vivo.svg?branch=master)](https://travis-ci.org/ModelOriented/vivo) [![Coverage
+Status](https://img.shields.io/codecov/c/github/ModelOriented/vivo/master.svg)](https://codecov.io/github/ModelOriented/vivo?branch=master) 
+
+The `vivo` package helps to calculate instance level variable importance (measure of local sensitivity). The importance measure is based on Ceteris Paribus profiles and can be calculated in eight variants. Select the variant that suits your needs by setting parameters: `absolute_deviation`, `point` and `density`.
+
+Learn more:
+
+* [Intuition for Ceteris Paribus Oscillations](https://github.com/ModelOriented/vivo#intuition)
+
+--------------------
+
+### [EIX](http://github.com/ModelOriented/EIX) 
+
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/EIX)](https://cran.r-project.org/package=EIX) [![Build Status](https://api.travis-ci.org/ModelOriented/EIX.svg?branch=master)](https://travis-ci.org/ModelOriented/EIX) [![Coverage
+Status](https://img.shields.io/codecov/c/github/ModelOriented/EIX/master.svg)](https://codecov.io/github/ModelOriented/EIX?branch=master) 
+
+The `EIX` package implements set of techniques to explore and explain `XGBoost` and `LightGBM` models. Main functions of this package cover various variable importance measures and well as functions for identification of interactions between variables.
+
+Learn more
+
+* [Cheatsheet](https://github.com/ModelOriented/EIX#cheatsheets)
+
+--------------------
+
 ### [dime](http://github.com/ModelOriented/dime) 
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/dime)](https://cran.r-project.org/package=dime) [![Build Status](https://api.travis-ci.org/ModelOriented/dime.svg?branch=master)](https://travis-ci.org/ModelOriented/dime) [![Coverage
@@ -155,11 +186,6 @@ Learn more:
 
 --------------------
 
-## Lifecycle for Predictive Models
-
-The DrWhy is based on an unified [Model Development Process](https://github.com/ModelOriented/DrWhy/blob/master/images/ModelDevelopmentProcess.pdf) based on RUP. Find an overview in the diagram below.
-
-[![images/DALEXverse.png](images/DALEXverse.png)]( https://modeloriented.github.io/ModelDevelopmentProcess/ )
 
 Tools that are usefull during the model lifetime. ![MI2](images/mi2.svg) stands for our internal tools.
 
