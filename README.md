@@ -122,6 +122,18 @@ Learn more:
 
 * [Intuition for Ceteris Paribus Oscillations](https://github.com/ModelOriented/vivo#intuition)
 
+
+--------------------
+
+### [shapper](http://github.com/ModelOriented/shapper) 
+
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/shapper)](https://cran.r-project.org/package=shapper) [![Build Status](https://api.travis-ci.org/ModelOriented/shapper.svg?branch=master)](https://travis-ci.org/ModelOriented/shapper) [![Coverage
+Status](https://img.shields.io/codecov/c/github/ModelOriented/shapper/master.svg)](https://codecov.io/github/ModelOriented/shapper?branch=master) 
+
+The `shapper` is an R wrapper of SHAP python library.
+It accesses python implementation through `reticulate` connector.
+
+
 --------------------
 
 ### [EIX](http://github.com/ModelOriented/EIX) 
