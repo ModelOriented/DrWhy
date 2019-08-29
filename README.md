@@ -136,6 +136,22 @@ It accesses python implementation through `reticulate` connector.
 
 --------------------
 
+### [drifter](http://github.com/ModelOriented/drifter) 
+
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/drifter)](https://cran.r-project.org/package=drifter) [![Build Status](https://api.travis-ci.org/ModelOriented/drifter.svg?branch=master)](https://travis-ci.org/ModelOriented/drifter) [![Coverage
+Status](https://img.shields.io/codecov/c/github/ModelOriented/drifter/master.svg)](https://codecov.io/github/ModelOriented/drifter?branch=master) 
+
+The `drifter` is an R package that identifies concept drift in model structure or in data structure.
+
+Machine learning models are often fitted and validated on historical data under an assumption that data are stationary. The most popular techniques for validation (k-fold cross-validation, repeated cross-validation, and so on) test models on data with the same distribution as training data.
+
+Yet, in many practical applications, deployed models are working in a changing environment. After some time, due to changes in the environment, model performance may degenerate, as model may be less reliable.
+
+Concept drift refers to the change in the data distribution or in the relationships between variables over time. Think about model for energy consumption for a school, over time the school may be equipped with larger number of devices of with more power-efficient devices that may affect the model performance.
+
+
+--------------------
+
 ### [EIX](http://github.com/ModelOriented/EIX) 
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/EIX)](https://cran.r-project.org/package=EIX) [![Build Status](https://api.travis-ci.org/ModelOriented/EIX.svg?branch=master)](https://travis-ci.org/ModelOriented/EIX) [![Coverage
@@ -231,8 +247,8 @@ Tools that are usefull during the model lifetime. ![MI2](images/mi2.svg) stands 
 
 ### 6. Model delivery
 
-* [breakDown](https://github.com/pbiecek/breakDown), [pyBreakDown](https://github.com/MI2DataLab/pyBreakDown) and [breakDown2](https://github.com/ModelOriented/breakDown2) ![MI2](images/mi2.svg) Model Agnostic Explainers for Individual Predictions (with interactions)
-* [ceterisParibus](https://github.com/pbiecek/ceterisParibus), [pyCeterisParibus](https://github.com/ModelOriented/pyCeterisParibus), [ceterisParibusD3](https://github.com/MI2DataLab/ceterisParibusExt/tree/master/ceterisParibusD3) and [ceterisParibus2](https://github.com/ModelOriented/ceterisParibus2) ![MI2](images/mi2.svg) Ceteris Paribus Plots (What-If plots) for explanations of a single observation
+* [iBreakDown](https://github.com/ModelOriented/iBreakDown), [pyBreakDown](https://github.com/MI2DataLab/pyBreakDown)  ![MI2](images/mi2.svg) Model Agnostic Explainers for Individual Predictions (with interactions)
+* [ceterisParibus](https://github.com/pbiecek/ceterisParibus), [pyCeterisParibus](https://github.com/ModelOriented/pyCeterisParibus), [ceterisParibusD3](https://github.com/MI2DataLab/ceterisParibusExt/tree/master/ceterisParibusD3) and [ingredients](https://github.com/ModelOriented/ingredients) ![MI2](images/mi2.svg) Ceteris Paribus Plots (What-If plots) for explanations of a single observation
 * [localModel](https://github.com/ModelOriented/localModel) and [live](https://github.com/MI2DataLab/live/) ![MI2](images/mi2.svg) 
 LIME-like explanations with interpretable features based on Ceteris Paribus curves. 
 * [lime](https://github.com/thomasp85/lime); Local Interpretable Model-Agnostic Explanations (R port of original Python package)
@@ -246,19 +262,14 @@ LIME-like explanations with interpretable features based on Ceteris Paribus curv
 
 ![images/DrWhyAI.png](images/DrWhyAI.png)
 
-![Family of Model Explainers](images/family.png)
 
 ## Architecture of DrWhy
 
 `DrWhy` works on fully trained predictive models. Models can be created with any tool. 
 
-`DrWhy` uses `DALEX2` package to wrap model with additional metadata required for explanations, like validation data, predict function etc.
+`DrWhy` uses `DALEX` package to wrap model with additional metadata required for explanations, like validation data, predict function etc.
 
 Explainers for predictive models can be created with model agnostic or model specific functions implemented in various packages.
 
-
-![Architecture of DrWhy](images/DrWhy.png)
-
 ![Hype_Cycle](images/Hype_Cycle.svg)
-
 
