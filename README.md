@@ -253,7 +253,8 @@ Tools that are usefull during the model lifetime. ![MI2](images/mi2.svg) stands 
 LIME-like explanations with interpretable features based on Ceteris Paribus curves. 
 * [lime](https://github.com/thomasp85/lime); Local Interpretable Model-Agnostic Explanations (R port of original Python package)
 * [shapper](https://github.com/ModelOriented/shapper) ![MI2](images/mi2.svg) An R wrapper of SHAP python library
-* [modelDown](https://github.com/MI2DataLab/modelDown) ![MI2](images/mi2.svg) modelDown generates a website with HTML summaries for predictive models
+* [modelDown](https://github.com/ModelOriented/modelDown) ![MI2](images/mi2.svg) modelDown generates a website with HTML summaries for predictive models
+* [modelStudio](https://github.com/ModelOriented/modelStudio) ![MI2](images/mi2.svg) modelStudio generates an interactive dashboard with D3 based summaries for predictive models
 * [drifter](https://github.com/ModelOriented/drifter) ![MI2](images/mi2.svg) Concept Drift and Concept Shift Detection for Predictive Models
 * [archivist](https://github.com/pbiecek/archivist) ![MI2](images/mi2.svg) A set of tools for datasets and plots archiving [paper](http://doi.org/10.18637/jss.v082.i11)
 
