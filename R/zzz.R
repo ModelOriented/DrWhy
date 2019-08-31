@@ -1,4 +1,4 @@
-core <- c("DALEX2", "breakDown", "ceterisParibus", "auditor")
+core <- c("DALEX", "iBreakDown", "ingredients", "auditor")
 
 .onAttach <- function(...) {
   DrWhy_logo()

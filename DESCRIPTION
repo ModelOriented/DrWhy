@@ -1,26 +1,29 @@
 Package: DrWhy
 Title: Easily Install and Load tools from DALEXverse
-Version: 0.9
+Version: 2019.8
 Authors@R: person("Przemyslaw", "Biecek", email = "przemyslaw.biecek@gmail.com", role = c("aut", "cre"))
-Description: The 'DrWhy' is the collection of tools for Explainable AI (XAI). 
+Description: The 'DrWhy.AI' is the collection of tools for Explainable AI (XAI). 
     It's based on shared principles and simple grammar for exploration, 
     explanation and visualisation of predictive models.
     This package is designed to make it easy to install and load multiple
     'DALEXverse' packages in a single step. 
     It is heavily inspired by the  'tidyverse'.
 License: GPL-3
-BugReports: https://github.com/pbiecek/DrWhy/issues
+BugReports: https://github.com/ModelOriented/DrWhy/issues
 Depends: R (>= 3.1)
 Imports: 
-    DALEX2 (>= 0.9),
-    breakDown (>= 0.1),
-    ceterisParibus (>= 0.1),
-    ggplot2 (>= 2.2.1),
+    DALEX (>= 0.4.7),
+    ingredients (>= 0.3.9),
+    iBreakDown (>= 0.9.9),
+    auditor (>= 0.3.1),
+    archivist (>= 2.3.2),
     crayon
 Suggests: 
+    modelDown,
+    modelStudio,
     knitr,
     testthat
 VignetteBuilder: knitr
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
