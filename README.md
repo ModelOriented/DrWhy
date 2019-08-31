@@ -23,7 +23,7 @@ Packages in the `DrWhy.AI` family of models may be divided into four classes.
 
 * **Model specific explainers**. These packages implement model specific techniques. `randomForestExplainer` implements techniques for exploration of `randomForest` models. `EIX` implements techniques for exploration of gbm and xgboost models. `cr19` implements techniques for exploration of survival models. 
 
-* **Automated exploration**. These packages combine series of model exploration techniques and produce an automated report of website for model exploration. `dime` implements a dashboard generator for local and global interactive model exploration. `modelDown` implements a HTML website generator for global model cross comparison. 
+* **Automated exploration**. These packages combine series of model exploration techniques and produce an automated report of website for model exploration. `modelStudio` implements a dashboard generator for local and global interactive model exploration. `modelDown` implements a HTML website generator for global model cross comparison. 
 
 Here is a more detailed overview.
 
@@ -159,24 +159,24 @@ Status](https://img.shields.io/codecov/c/github/ModelOriented/EIX/master.svg)](h
 
 The `EIX` package implements set of techniques to explore and explain `XGBoost` and `LightGBM` models. Main functions of this package cover various variable importance measures and well as functions for identification of interactions between variables.
 
-Learn more
+Learn more:
 
 * [Cheatsheet](https://github.com/ModelOriented/EIX#cheatsheets)
 
 --------------------
 
-### [dime](http://github.com/ModelOriented/dime) 
+### [modelStudio](http://github.com/ModelOriented/modelStudio) 
 
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/dime)](https://cran.r-project.org/package=dime) [![Build Status](https://api.travis-ci.org/ModelOriented/dime.svg?branch=master)](https://travis-ci.org/ModelOriented/dime) [![Coverage
-Status](https://img.shields.io/codecov/c/github/ModelOriented/dime/master.svg)](https://codecov.io/github/ModelOriented/dime?branch=master) 
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/modelStudio)](https://cran.r-project.org/package=modelStudio) [![Build Status](https://api.travis-ci.org/ModelOriented/modelStudio.svg?branch=master)](https://travis-ci.org/ModelOriented/modelStudio) [![Coverage
+Status](https://img.shields.io/codecov/c/github/ModelOriented/modelStudio/master.svg)](https://codecov.io/github/ModelOriented/modelStudio?branch=master) 
 
-The `dime` package automate interactive explanation and exploration machine learning predictive models.  This package generates advanced interactive and animated model explanations in the form  of serverless HTML site. It combines R with D3.js to produce plots and descriptions  for local and global explanations. The whole is greater than the sum of its parts,  so it also supports EDA on top of that. ModelStudio is a fast and condensed way to get  all the answers without much effort. Break down your model and look into its ingredients  with only a few lines of code.
+The `modelStudio` package automate interactive explanation and exploration machine learning predictive models.  This package generates advanced interactive and animated model explanations in the form  of serverless HTML site. It combines R with D3.js to produce plots and descriptions  for local and global explanations. The whole is greater than the sum of its parts,  so it also supports EDA on top of that. ModelStudio is a fast and condensed way to get  all the answers without much effort. Break down your model and look into its ingredients  with only a few lines of code.
 
 The key function is `modelStudio()` which generates interactive studio to explain predictive model. 
 
 Vignettes: 
 
-* [General introduction: modelStudio - perks and features](https://modeloriented.github.io/dime/articles/vignette_modelStudio.html)
+* [General introduction: modelStudio - perks and features](https://modeloriented.github.io/modelStudio/articles/vignette_modelStudio.html)
 
 --------------------
 
