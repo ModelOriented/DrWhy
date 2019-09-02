@@ -19,7 +19,7 @@ Packages in the `DrWhy.AI` family of models may be divided into four classes.
 
 * **Model adapters**. Predictive models created with different tools have different structures, and different interfaces. Model adapters create uniform wrappers. This way other packages may operate on models in an unified way. `DALEX` is a lightweight package with generic interface. `DALEXtra` is a package with extensions for heavyweight interfaces like `scikitlearn`, `h2o`, `mlr`.
 
-* **Model agnostic explainers**. These packages implement specific methods for model exploration. They can be applied to a single model or they can compare different models. `ingregdients` implements variable specific techniques like Ceteris Paribus, Partial Dependency, Permutation based Feature Importance. `iBreakDown` implements techniques for variable attribution, like Break Down or SHAPley values. `auditor` implements techniques for model validation, residual diagnostic and performance diagnostic.
+* **Model agnostic explainers**. These packages implement specific methods for model exploration. They can be applied to a single model or they can compare different models. `ingredients` implements variable specific techniques like Ceteris Paribus, Partial Dependency, Permutation based Feature Importance. `iBreakDown` implements techniques for variable attribution, like Break Down or SHAPley values. `auditor` implements techniques for model validation, residual diagnostic and performance diagnostic.
 
 * **Model specific explainers**. These packages implement model specific techniques. `randomForestExplainer` implements techniques for exploration of `randomForest` models. `EIX` implements techniques for exploration of gbm and xgboost models. `cr19` implements techniques for exploration of survival models. 
 
@@ -34,7 +34,7 @@ Here is a more detailed overview.
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/DALEX)](https://cran.r-project.org/package=DALEX) [![Build Status](https://api.travis-ci.org/ModelOriented/DALEX.png)](https://travis-ci.org/ModelOriented/DALEX) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/DALEX/master.svg)](https://codecov.io/github/ModelOriented/DALEX?branch=master) 
 
-The DALEX package (Descriptive mAchine Learning EXplanations) helps to understand how complex models are working. The main function [explain](https://modeloriented.github.io/DALEX/reference/explain.html) creates a wrapper around a predictive model. Wrapped models may then be explored and compared with a collection of local and global explainers. Recent developents from the area of Interpretable Machine Learning/eXplainable Artificial Intelligence.
+The DALEX package (Descriptive mAchine Learning EXplanations) helps to understand how complex models are working. The main function [explain](https://modeloriented.github.io/DALEX/reference/explain.html) creates a wrapper around a predictive model. Wrapped models may then be explored and compared with a collection of local and global explainers. Recent developments from the area of Interpretable Machine Learning/eXplainable Artificial Intelligence.
 
 DALEX wraps methods from other packages, i.e. 'pdp' (Greenwell 2017) <doi:10.32614/RJ-2017-016>, 'ALEPlot' (Apley 2018) <arXiv:1612.08468>, 'factorMerger' (Sitko and Biecek 2017) <arXiv:1709.04412>,  'breakDown' package (Staniak and Biecek 2018) <doi:10.32614/RJ-2018-072>, (Fisher at al. 2018) <arXiv:1801.01489>.
 
@@ -170,7 +170,7 @@ Learn more:
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/modelStudio)](https://cran.r-project.org/package=modelStudio) [![Build Status](https://api.travis-ci.org/ModelOriented/modelStudio.svg?branch=master)](https://travis-ci.org/ModelOriented/modelStudio) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/modelStudio/master.svg)](https://codecov.io/github/ModelOriented/modelStudio?branch=master) 
 
-The `modelStudio` package automate interactive explanation and exploration machine learning predictive models.  This package generates advanced interactive and animated model explanations in the form  of serverless HTML site. It combines R with D3.js to produce plots and descriptions  for local and global explanations. The whole is greater than the sum of its parts,  so it also supports EDA on top of that. ModelStudio is a fast and condensed way to get  all the answers without much effort. Break down your model and look into its ingredients  with only a few lines of code.
+The `modelStudio` package automate interactive explanation and exploration machine learning predictive models.  This package generates advanced interactive and animated model explanations in the form  of serverless HTML site. It combines R with D3.js to produce plots and descriptions for local and global explanations. The whole is greater than the sum of its parts,  so it also supports EDA on top of that. ModelStudio is a fast and condensed way to get all the answers without much effort. Break down your model and look into its ingredients with only a few lines of code.
 
 The key function is `modelStudio()` which generates interactive studio to explain predictive model. 
 
@@ -185,7 +185,7 @@ Vignettes:
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/modelDown)](https://cran.r-project.org/package=modelDown) [![Build Status](https://api.travis-ci.org/ModelOriented/modelDown.svg?branch=master)](https://travis-ci.org/ModelOriented/modelDown) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/modelDown/master.svg)](https://codecov.io/github/ModelOriented/modelDown?branch=master) 
 
-The`modelDown` package generates a website with HTML summaries for predictive models. Is uses `DALEX` explainers to compute and plot summaries of how given models behave. We can see how well models behave (*Model Performance*, *Auditor*), how much each variable contributes to predictions (*Variable Response*) and which variables are the most important for a given model (*Variable Importance*). We can also compare Concept Drift for pairs of models (*Drifter*). Additionally, data available on the website can be easily recreated in current R session (using archivist package).
+The`modelDown` package generates a website with HTML summaries for predictive models. Is uses `DALEX` explainers to compute and plot summaries of how given models behave. We can see how well models behave (*Model Performance*, *Auditor*), how much each variable contributes to predictions (*Variable Response*) and which variables are the most important for a given model (*Variable Importance*). We can also compare Concept Drift for pairs of models (*Drifter*). Additionally, data available on the website can be easily recreated in current R session (using `archivist` package).
 
 Learn more: 
 
@@ -200,7 +200,7 @@ Learn more:
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/archivist)](https://cran.r-project.org/package=archivist) [![Build Status](https://api.travis-ci.org/pbiecek/archivist.svg?branch=master)](https://travis-ci.org/pbiecek/archivist) [![Coverage
 Status](https://img.shields.io/codecov/c/github/pbiecek/archivist/master.svg)](https://codecov.io/github/pbiecek/archivist?branch=master) 
 
-The `archivist` package automate serialization and deserializtaion of R objects. Objects are stored with additional metadata to faciliate reproducibility and governance of data science projects. 
+The `archivist` package automate serialization and deserialization of R objects. Objects are stored with additional metadata to facilitate reproducibility and governance of data science projects. 
 
 Everything that exists in R is an object. `archivist` is an R package that stores copies of all objects along with their metadata. It helps to manage and recreate objects with final or partial results from data analysis. Use `archivist` to record every result, to share these results with future you or with others, to search through repository of objects created in the past but needed now.
 
@@ -213,7 +213,7 @@ Learn more:
 --------------------
 
 
-Tools that are usefull during the model lifetime. ![MI2](images/mi2.svg) stands for our internal tools.
+Tools that are useful during the model lifetime. ![MI2](images/mi2.svg) stands for our internal tools.
 
 ### 1. Data preparation
 
