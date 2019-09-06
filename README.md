@@ -76,7 +76,7 @@ Vignettes:
 
 --------------------
 
-### [iBreakDown](http://github.com/ModelOriented/iBreakDown) 
+### [iBreakDown](http://github.com/ModelOriented/iBreakDown)   <img src="https://modeloriented.github.io/iBreakDown/reference/figures/logo.png" align="right" width="100"/>
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/iBreakDown)](https://cran.r-project.org/package=iBreakDown) [![Build Status](https://api.travis-ci.org/ModelOriented/iBreakDown.svg?branch=master)](https://travis-ci.org/ModelOriented/iBreakDown) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/iBreakDown/master.svg)](https://codecov.io/github/ModelOriented/iBreakDown?branch=master) 
