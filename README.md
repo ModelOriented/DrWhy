@@ -29,7 +29,7 @@ Here is a more detailed overview.
 
 --------------------
 
-### [DALEX](http://github.com/ModelOriented/DALEX)
+### [DALEX](http://github.com/ModelOriented/DALEX) <img src="https://modeloriented.github.io/DALEX/reference/figures/logo.png" align="right" width="100"/>
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/DALEX)](https://cran.r-project.org/package=DALEX) [![Build Status](https://api.travis-ci.org/ModelOriented/DALEX.png)](https://travis-ci.org/ModelOriented/DALEX) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/DALEX/master.svg)](https://codecov.io/github/ModelOriented/DALEX?branch=master) 
