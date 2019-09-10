@@ -96,7 +96,7 @@ Vignettes:
 
 --------------------
 
-### [auditor](http://github.com/ModelOriented/auditor) 
+### [auditor](http://github.com/ModelOriented/auditor)   <img src="https://modeloriented.github.io/auditor/reference/figures/logo.png" align="right" width="100"/>
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/auditor)](https://cran.r-project.org/package=auditor) [![Build Status](https://api.travis-ci.org/ModelOriented/auditor.svg?branch=master)](https://travis-ci.org/ModelOriented/auditor) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/auditor/master.svg)](https://codecov.io/github/ModelOriented/auditor?branch=master) 
