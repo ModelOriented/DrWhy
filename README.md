@@ -111,7 +111,7 @@ Learn more:
 
 --------------------
 
-### [vivo](http://github.com/ModelOriented/vivo) 
+### [vivo](http://github.com/ModelOriented/vivo)   <img src="https://modeloriented.github.io/vivo/reference/figures/logo.png" align="right" width="100"/>
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/vivo)](https://cran.r-project.org/package=vivo) [![Build Status](https://api.travis-ci.org/ModelOriented/vivo.svg?branch=master)](https://travis-ci.org/ModelOriented/vivo) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/vivo/master.svg)](https://codecov.io/github/ModelOriented/vivo?branch=master) 
