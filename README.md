@@ -165,7 +165,7 @@ Learn more:
 
 --------------------
 
-### [modelStudio](http://github.com/ModelOriented/modelStudio) 
+### [modelStudio](http://github.com/ModelOriented/modelStudio)   <img src="https://modeloriented.github.io/modelStudio/reference/figures/logo.png" align="right" width="100"/>
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/modelStudio)](https://cran.r-project.org/package=modelStudio) [![Build Status](https://api.travis-ci.org/ModelOriented/modelStudio.svg?branch=master)](https://travis-ci.org/ModelOriented/modelStudio) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/modelStudio/master.svg)](https://codecov.io/github/ModelOriented/modelStudio?branch=master) 
