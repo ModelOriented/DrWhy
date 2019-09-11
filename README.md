@@ -44,7 +44,7 @@ Vignettes:
 
 --------------------
 
-### [DALEXtra](http://github.com/ModelOriented/DALEXtra) 
+### [DALEXtra](http://github.com/ModelOriented/DALEXtra)  <img src="https://modeloriented.github.io/DALEXtra/reference/figures/logo.png" align="right" width="100"/>
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/DALEXtra)](https://cran.r-project.org/package=DALEXtra) [![Build Status](https://api.travis-ci.org/ModelOriented/DALEXtra.png)](https://travis-ci.org/ModelOriented/DALEXtra) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/DALEXtra/master.svg)](https://codecov.io/github/ModelOriented/DALEXtra?branch=master) 
