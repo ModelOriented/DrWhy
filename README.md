@@ -122,6 +122,23 @@ Learn more:
 
 * [Intuition for Ceteris Paribus Oscillations](https://github.com/ModelOriented/vivo#intuition)
 
+--------------------
+
+### [rSAFE](http://github.com/ModelOriented/rSAFE)   <img src="https://modeloriented.github.io/rSAFE/reference/figures/logo.png" align="right" width="100"/>
+
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/rSAFE)](https://cran.r-project.org/package=rSAFE) [![Build Status](https://api.travis-ci.org/ModelOriented/rSAFE.svg?branch=master)](https://travis-ci.org/ModelOriented/rSAFE) [![Coverage
+Status](https://img.shields.io/codecov/c/github/ModelOriented/rSAFE/master.svg)](https://codecov.io/github/ModelOriented/rSAFE?branch=master) 
+
+The `rSAFE` package is a model agnostic tool for making an interpretable white-box model more accurate using alternative black-box model called surrogate model. Based on the complicated model, such as neural network or random forest, new features are being extracted and then used in the process of fitting a simpler interpretable model, improving its overall performance.
+
+--------------------
+
+### [xspliner](http://github.com/ModelOriented/xspliner)   <img src="https://modeloriented.github.io/xspliner/reference/figures/logo.png" align="right" width="100"/>
+
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/xspliner)](https://cran.r-project.org/package=xspliner) [![Build Status](https://api.travis-ci.org/ModelOriented/xspliner.svg?branch=master)](https://travis-ci.org/ModelOriented/xspliner) [![Coverage
+Status](https://img.shields.io/codecov/c/github/ModelOriented/vivo/master.svg)](https://codecov.io/github/ModelOriented/xspliner?branch=master) 
+
+The `xspliner` package is a collection of tools for training interpretable surrogate ML models. The package helps to build simple, interpretable models that inherits informations provided by more complicated ones - resulting model may be treated as explanation of provided black box, that was supplied prior to the algorithm. Provided functionality offers graphical and statistical evaluation both for overall model and its components.
 
 --------------------
 
