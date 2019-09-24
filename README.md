@@ -47,7 +47,7 @@ Vignettes:
 ### [DALEXtra](http://github.com/ModelOriented/DALEXtra)  <img src="https://modeloriented.github.io/DALEXtra/reference/figures/logo.png" align="right" width="100"/>
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/DALEXtra)](https://cran.r-project.org/package=DALEXtra) [![Build Status](https://api.travis-ci.org/ModelOriented/DALEXtra.png)](https://travis-ci.org/ModelOriented/DALEXtra) [![Coverage
-Status](https://img.shields.io/codecov/c/github/ModelOriented/DALEXtra/master.svg)](https://codecov.io/github/ModelOriented/DALEXtra?branch=master)[![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-BackBone-373589)](http://drwhy.ai/#BackBone) 
+Status](https://img.shields.io/codecov/c/github/ModelOriented/DALEXtra/master.svg)](https://codecov.io/github/ModelOriented/DALEXtra?branch=master) [![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-BackBone-373589)](http://drwhy.ai/#BackBone) 
 
 The `DALEXtra` package is an extension pack for [DALEX](https://modeloriented.github.io/DALEX) package.
 This package provides easy to use connectors for models created with scikitlearn, keras, H2O, mljar and mlr.
@@ -61,7 +61,7 @@ Vignettes:
 ### [ingredients](http://github.com/ModelOriented/ingredients)  <img src="https://modeloriented.github.io/ingredients/reference/figures/logo.png" align="right" width="100"/>
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ingredients)](https://cran.r-project.org/package=ingredients) [![Build Status](https://api.travis-ci.org/ModelOriented/ingredients.svg?branch=master)](https://travis-ci.org/ModelOriented/ingredients) [![Coverage
-Status](https://img.shields.io/codecov/c/github/ModelOriented/ingredients/master.svg)](https://codecov.io/github/ModelOriented/ingredients?branch=master)[![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-eXtrAI-4378bf)](http://drwhy.ai/#eXtraAI) 
+Status](https://img.shields.io/codecov/c/github/ModelOriented/ingredients/master.svg)](https://codecov.io/github/ModelOriented/ingredients?branch=master) [![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-eXtrAI-4378bf)](http://drwhy.ai/#eXtraAI) 
 
 The `ingredients` package is a collection of tools for assessment of feature importance and feature effects.
 
@@ -79,7 +79,7 @@ Vignettes:
 ### [iBreakDown](http://github.com/ModelOriented/iBreakDown)   <img src="https://modeloriented.github.io/iBreakDown/reference/figures/logo.png" align="right" width="100"/>
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/iBreakDown)](https://cran.r-project.org/package=iBreakDown) [![Build Status](https://api.travis-ci.org/ModelOriented/iBreakDown.svg?branch=master)](https://travis-ci.org/ModelOriented/iBreakDown) [![Coverage
-Status](https://img.shields.io/codecov/c/github/ModelOriented/iBreakDown/master.svg)](https://codecov.io/github/ModelOriented/iBreakDown?branch=master)[![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-eXtrAI-4378bf)](http://drwhy.ai/#eXtraAI) 
+Status](https://img.shields.io/codecov/c/github/ModelOriented/iBreakDown/master.svg)](https://codecov.io/github/ModelOriented/iBreakDown?branch=master) [![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-eXtrAI-4378bf)](http://drwhy.ai/#eXtraAI) 
 
 The `iBreakDown` package is a model agnostic tool for explanation of predictions from black boxes ML models.
 Break Down Table shows contributions of every variable to a final prediction. 
@@ -99,7 +99,7 @@ Vignettes:
 ### [auditor](http://github.com/ModelOriented/auditor)   <img src="https://modeloriented.github.io/auditor/reference/figures/logo.png" align="right" width="100"/>
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/auditor)](https://cran.r-project.org/package=auditor) [![Build Status](https://api.travis-ci.org/ModelOriented/auditor.svg?branch=master)](https://travis-ci.org/ModelOriented/auditor) [![Coverage
-Status](https://img.shields.io/codecov/c/github/ModelOriented/auditor/master.svg)](https://codecov.io/github/ModelOriented/auditor?branch=master)[![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-eXtrAI-4378bf)](http://drwhy.ai/#eXtraAI) 
+Status](https://img.shields.io/codecov/c/github/ModelOriented/auditor/master.svg)](https://codecov.io/github/ModelOriented/auditor?branch=master) [![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-eXtrAI-4378bf)](http://drwhy.ai/#eXtraAI) 
 
 Package `auditor` is a tool for model-agnostic validation. Implemented techniques facilitate assessing and comparing the goodness of fit and performance of models. In addition, they may be used for the analysis of the similarity of residuals and for the identification of outliers and influential observations. The examination is carried out by diagnostic scores and visual verification. Due to the flexible and consistent grammar, it is simple to validate models of any classes.
 
@@ -114,7 +114,7 @@ Learn more:
 ### [vivo](http://github.com/ModelOriented/vivo)   <img src="https://modeloriented.github.io/vivo/reference/figures/logo.png" align="right" width="100"/>
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/vivo)](https://cran.r-project.org/package=vivo) [![Build Status](https://api.travis-ci.org/ModelOriented/vivo.svg?branch=master)](https://travis-ci.org/ModelOriented/vivo) [![Coverage
-Status](https://img.shields.io/codecov/c/github/ModelOriented/vivo/master.svg)](https://codecov.io/github/ModelOriented/vivo?branch=master)[![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-eXtrAI-4378bf)](http://drwhy.ai/#eXtraAI) 
+Status](https://img.shields.io/codecov/c/github/ModelOriented/vivo/master.svg)](https://codecov.io/github/ModelOriented/vivo?branch=master) [![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-eXtrAI-4378bf)](http://drwhy.ai/#eXtraAI) 
 
 The `vivo` package helps to calculate instance level variable importance (measure of local sensitivity). The importance measure is based on Ceteris Paribus profiles and can be calculated in eight variants. Select the variant that suits your needs by setting parameters: `absolute_deviation`, `point` and `density`.
 
@@ -136,7 +136,7 @@ The `rSAFE` package is a model agnostic tool for making an interpretable white-b
 ### [xspliner](http://github.com/ModelOriented/xspliner)   <img src="https://modeloriented.github.io/xspliner/reference/figures/logo.png" align="right" width="100"/>
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/xspliner)](https://cran.r-project.org/package=xspliner) [![Build Status](https://api.travis-ci.org/ModelOriented/xspliner.svg?branch=master)](https://travis-ci.org/ModelOriented/xspliner) [![Coverage
-Status](https://img.shields.io/codecov/c/github/ModelOriented/vivo/master.svg)](https://codecov.io/github/ModelOriented/xspliner?branch=master)[![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-AutoMat-ae2c87)](http://drwhy.ai/#AutoMat) 
+Status](https://img.shields.io/codecov/c/github/ModelOriented/vivo/master.svg)](https://codecov.io/github/ModelOriented/xspliner?branch=master) [![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-AutoMat-ae2c87)](http://drwhy.ai/#AutoMat) 
 
 The `xspliner` package is a collection of tools for training interpretable surrogate ML models. The package helps to build simple, interpretable models that inherits informations provided by more complicated ones - resulting model may be treated as explanation of provided black box, that was supplied prior to the algorithm. Provided functionality offers graphical and statistical evaluation both for overall model and its components.
 
@@ -145,7 +145,7 @@ The `xspliner` package is a collection of tools for training interpretable surro
 ### [shapper](http://github.com/ModelOriented/shapper) 
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/shapper)](https://cran.r-project.org/package=shapper) [![Build Status](https://api.travis-ci.org/ModelOriented/shapper.svg?branch=master)](https://travis-ci.org/ModelOriented/shapper) [![Coverage
-Status](https://img.shields.io/codecov/c/github/ModelOriented/shapper/master.svg)](https://codecov.io/github/ModelOriented/shapper?branch=master)[![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-eXtrAI-4378bf)](http://drwhy.ai/#eXtraAI) 
+Status](https://img.shields.io/codecov/c/github/ModelOriented/shapper/master.svg)](https://codecov.io/github/ModelOriented/shapper?branch=master) [![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-eXtrAI-4378bf)](http://drwhy.ai/#eXtraAI) 
 
 The `shapper` is an R wrapper of SHAP python library.
 It accesses python implementation through `reticulate` connector.
@@ -172,7 +172,7 @@ Concept drift refers to the change in the data distribution or in the relationsh
 ### [EIX](http://github.com/ModelOriented/EIX) 
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/EIX)](https://cran.r-project.org/package=EIX) [![Build Status](https://api.travis-ci.org/ModelOriented/EIX.svg?branch=master)](https://travis-ci.org/ModelOriented/EIX) [![Coverage
-Status](https://img.shields.io/codecov/c/github/ModelOriented/EIX/master.svg)](https://codecov.io/github/ModelOriented/EIX?branch=master)[![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-eXtrAI-4378bf)](http://drwhy.ai/#eXtraAI) 
+Status](https://img.shields.io/codecov/c/github/ModelOriented/EIX/master.svg)](https://codecov.io/github/ModelOriented/EIX?branch=master) [![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-eXtrAI-4378bf)](http://drwhy.ai/#eXtraAI) 
 
 The `EIX` package implements set of techniques to explore and explain `XGBoost` and `LightGBM` models. Main functions of this package cover various variable importance measures and well as functions for identification of interactions between variables.
 
@@ -185,7 +185,7 @@ Learn more:
 ### [modelStudio](http://github.com/ModelOriented/modelStudio)   <img src="https://modeloriented.github.io/modelStudio/reference/figures/logo.png" align="right" width="100"/>
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/modelStudio)](https://cran.r-project.org/package=modelStudio) [![Build Status](https://api.travis-ci.org/ModelOriented/modelStudio.svg?branch=master)](https://travis-ci.org/ModelOriented/modelStudio) [![Coverage
-Status](https://img.shields.io/codecov/c/github/ModelOriented/modelStudio/master.svg)](https://codecov.io/github/ModelOriented/modelStudio?branch=master)[![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-AutoMat-ae2c87)](http://drwhy.ai/#AutoMat) 
+Status](https://img.shields.io/codecov/c/github/ModelOriented/modelStudio/master.svg)](https://codecov.io/github/ModelOriented/modelStudio?branch=master) [![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-AutoMat-ae2c87)](http://drwhy.ai/#AutoMat) 
 
 The `modelStudio` package automate interactive explanation and exploration machine learning predictive models.  This package generates advanced interactive and animated model explanations in the form  of serverless HTML site. It combines R with D3.js to produce plots and descriptions for local and global explanations. The whole is greater than the sum of its parts,  so it also supports EDA on top of that. ModelStudio is a fast and condensed way to get all the answers without much effort. Break down your model and look into its ingredients with only a few lines of code.
 
@@ -200,7 +200,7 @@ Vignettes:
 ### [modelDown](http://github.com/ModelOriented/modelDown) 
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/modelDown)](https://cran.r-project.org/package=modelDown) [![Build Status](https://api.travis-ci.org/ModelOriented/modelDown.svg?branch=master)](https://travis-ci.org/ModelOriented/modelDown) [![Coverage
-Status](https://img.shields.io/codecov/c/github/ModelOriented/modelDown/master.svg)](https://codecov.io/github/ModelOriented/modelDown?branch=master)[![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-AutoMat-ae2c87)](http://drwhy.ai/#AutoMat) 
+Status](https://img.shields.io/codecov/c/github/ModelOriented/modelDown/master.svg)](https://codecov.io/github/ModelOriented/modelDown?branch=master) [![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-AutoMat-ae2c87)](http://drwhy.ai/#AutoMat) 
 
 The`modelDown` package generates a website with HTML summaries for predictive models. Is uses `DALEX` explainers to compute and plot summaries of how given models behave. We can see how well models behave (*Model Performance*, *Auditor*), how much each variable contributes to predictions (*Variable Response*) and which variables are the most important for a given model (*Variable Importance*). We can also compare Concept Drift for pairs of models (*Drifter*). Additionally, data available on the website can be easily recreated in current R session (using `archivist` package).
 
@@ -215,7 +215,7 @@ Learn more:
 ### [archivist](http://github.com/pbiecek/archivist) 
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/archivist)](https://cran.r-project.org/package=archivist) [![Build Status](https://api.travis-ci.org/pbiecek/archivist.svg?branch=master)](https://travis-ci.org/pbiecek/archivist) [![Coverage
-Status](https://img.shields.io/codecov/c/github/pbiecek/archivist/master.svg)](https://codecov.io/github/pbiecek/archivist?branch=master)[![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-BackBone-373589)](http://drwhy.ai/#BackBone) 
+Status](https://img.shields.io/codecov/c/github/pbiecek/archivist/master.svg)](https://codecov.io/github/pbiecek/archivist?branch=master) [![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-BackBone-373589)](http://drwhy.ai/#BackBone) 
 
 The `archivist` package automate serialization and deserialization of R objects. Objects are stored with additional metadata to facilitate reproducibility and governance of data science projects. 
 
