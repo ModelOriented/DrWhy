@@ -44,7 +44,7 @@ Vignettes:
 
 --------------------
 
-### [DALEXtra](http://github.com/ModelOriented/DALEXtra)  <img src="https://modeloriented.github.io/DALEXtra/reference/figures/logo.png" align="right" width="100"/>
+### [DALEXtra](http://github.com/ModelOriented/DALEXtra)  <img src="https://github.com/ModelOriented/DALEXtra/blob/master/man/figures/logo.png?raw=true" align="right" width="100"/>
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/DALEXtra)](https://cran.r-project.org/package=DALEXtra) [![Build Status](https://api.travis-ci.org/ModelOriented/DALEXtra.png)](https://travis-ci.org/ModelOriented/DALEXtra) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/DALEXtra/master.svg)](https://codecov.io/github/ModelOriented/DALEXtra?branch=master) [![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-BackBone-373589)](http://drwhy.ai/#BackBone) 
@@ -142,7 +142,7 @@ The `xspliner` package is a collection of tools for training interpretable surro
 
 --------------------
 
-### [shapper](http://github.com/ModelOriented/shapper) 
+### [shapper](http://github.com/ModelOriented/shapper)  <img src="https://github.com/ModelOriented/shapper/blob/master/man/figures/logo.png?raw=true" align="right" width="100"/>
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/shapper)](https://cran.r-project.org/package=shapper) [![Build Status](https://api.travis-ci.org/ModelOriented/shapper.svg?branch=master)](https://travis-ci.org/ModelOriented/shapper) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/shapper/master.svg)](https://codecov.io/github/ModelOriented/shapper?branch=master) [![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-eXtrAI-4378bf)](http://drwhy.ai/#eXtraAI) 
