@@ -212,6 +212,20 @@ Learn more:
 
 --------------------
 
+### [EloML](http://github.com/ModelOriented/EloML) <img src="https://modeloriented.github.io/EloML/reference/figures/logo.png" align="right" width="100"/>
+
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/EloML)](https://cran.r-project.org/package=EloML) [![Build Status](https://api.travis-ci.org/ModelOriented/EloML.svg?branch=master)](https://travis-ci.org/ModelOriented/EloML) [![Coverage
+Status](https://img.shields.io/codecov/c/github/ModelOriented/EloML/master.svg)](https://codecov.io/github/ModelOriented/EloML?branch=master) [![DrWhy-AutoMat](https://img.shields.io/badge/DrWhy-AutoMat-373589)](http://drwhy.ai/#AutoMat) 
+
+The `EloML` package provides Elo rating system for machine learning models. Elo Predictive Power (EPP) score helps to assess model performance based Elo ranking system.
+
+Learn more: 
+
+* [arxiv](https://arxiv.org/abs/1908.09213)
+
+
+--------------------
+
 ### [archivist](http://github.com/pbiecek/archivist) 
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/archivist)](https://cran.r-project.org/package=archivist) [![Build Status](https://api.travis-ci.org/pbiecek/archivist.svg?branch=master)](https://travis-ci.org/pbiecek/archivist) [![Coverage
