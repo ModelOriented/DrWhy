@@ -25,6 +25,8 @@ Packages in the `DrWhy.AI` family of models may be divided into four classes.
 
 * **Automated exploration**. These packages combine series of model exploration techniques and produce an automated report of website for model exploration. `modelStudio` implements a dashboard generator for local and global interactive model exploration. `modelDown` implements a HTML website generator for global model cross comparison. 
 
+[![images/grammar_of_explanations.png](images/grammar_of_explanations.png)]( https://drwhy.ai/ )
+
 Here is a more detailed overview.
 
 --------------------
