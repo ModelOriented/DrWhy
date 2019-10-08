@@ -126,6 +126,21 @@ Learn more:
 
 --------------------
 
+### [randomForestExplainer](http://github.com/ModelOriented/randomForestExplainer)   <img src="https://modeloriented.github.io/randomForestExplainer/reference/figures/logo.png" align="right" width="100"/>
+
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/randomForestExplainer)](https://cran.r-project.org/package=randomForestExplainer) [![Build Status](https://api.travis-ci.org/ModelOriented/randomForestExplainer.svg?branch=master)](https://travis-ci.org/ModelOriented/randomForestExplainer) [![Coverage
+Status](https://img.shields.io/codecov/c/github/ModelOriented/randomForestExplainer/master.svg)](https://codecov.io/github/ModelOriented/randomForestExplainer?branch=master) [![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-eXtrAI-4378bf)](http://drwhy.ai/#eXtraAI) 
+
+The `randomForestExplainer` package helps to understand what is happening inside a Random Forest model. This package helps to explore main effects and pairwise interactions, depth distribution, conditional responses and feature importance.
+
+Learn more:
+
+* Vignettes: [Boston data: Understanding random forests with randomForestExplainer
+Aleksandra Paluszyńska](https://modeloriented.github.io/randomForestExplainer/articles/randomForestExplainer.html), [Glioblastoma data: Understanding random forests with randomForestExplainer](https://cdn.staticaly.com/gh/geneticsMiNIng/BlackBoxOpener/master/randomForestExplainer/inst/doc/randomForestExplainer.html)
+* [Cheatsheet](https://github.com/ModelOriented/randomForestExplainer/blob/master/materials/cheatsheet.pdf)
+
+--------------------
+
 ### [rSAFE](http://github.com/ModelOriented/rSAFE)   <img src="https://modeloriented.github.io/rSAFE/reference/figures/logo.png" align="right" width="100"/>
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/rSAFE)](https://cran.r-project.org/package=rSAFE) [![Build Status](https://api.travis-ci.org/ModelOriented/rSAFE.svg?branch=master)](https://travis-ci.org/ModelOriented/rSAFE) [![Coverage
