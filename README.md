@@ -135,8 +135,7 @@ The `randomForestExplainer` package helps to understand what is happening inside
 
 Learn more:
 
-* Vignettes: [Boston data: Understanding random forests with randomForestExplainer
-Aleksandra Paluszyńska](https://modeloriented.github.io/randomForestExplainer/articles/randomForestExplainer.html), [Glioblastoma data: Understanding random forests with randomForestExplainer](https://cdn.staticaly.com/gh/geneticsMiNIng/BlackBoxOpener/master/randomForestExplainer/inst/doc/randomForestExplainer.html)
+* Vignettes: [Boston data: Understanding random forests with randomForestExplainer](https://modeloriented.github.io/randomForestExplainer/articles/randomForestExplainer.html), [Glioblastoma data: Understanding random forests with randomForestExplainer](https://cdn.staticaly.com/gh/geneticsMiNIng/BlackBoxOpener/master/randomForestExplainer/inst/doc/randomForestExplainer.html)
 * [Cheatsheet](https://github.com/ModelOriented/randomForestExplainer/blob/master/materials/cheatsheet.pdf)
 
 --------------------
