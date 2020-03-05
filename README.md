@@ -103,7 +103,7 @@ Vignettes:
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/auditor)](https://cran.r-project.org/package=auditor) [![Build Status](https://api.travis-ci.org/ModelOriented/auditor.svg?branch=master)](https://travis-ci.org/ModelOriented/auditor) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/auditor/master.svg)](https://codecov.io/github/ModelOriented/auditor?branch=master) [![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-eXtrAI-4378bf)](http://drwhy.ai/#eXtraAI) 
 
-Package `auditor` is a tool for model-agnostic validation. Implemented techniques facilitate assessing and comparing the goodness of fit and performance of models. In addition, they may be used for the analysis of the similarity of residuals and for the identification of outliers and influential observations. The examination is carried out by diagnostic scores and visual verification. Due to the flexible and consistent grammar, it is simple to validate models of any classes.
+The `auditor` package is a tool for model-agnostic validation. Implemented techniques facilitate assessing and comparing the goodness of fit and performance of models. In addition, they may be used for the analysis of the similarity of residuals and for the identification of outliers and influential observations. The examination is carried out by diagnostic scores and visual verification. Due to the flexible and consistent grammar, it is simple to validate models of any classes.
 
 Learn more: 
 
@@ -203,13 +203,15 @@ Learn more:
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/modelStudio)](https://cran.r-project.org/package=modelStudio) [![Build Status](https://api.travis-ci.org/ModelOriented/modelStudio.svg?branch=master)](https://travis-ci.org/ModelOriented/modelStudio) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/modelStudio/master.svg)](https://codecov.io/github/ModelOriented/modelStudio?branch=master) [![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-AutoMat-ae2c87)](http://drwhy.ai/#AutoMat) 
 
-The `modelStudio` package automate interactive explanation and exploration machine learning predictive models.  This package generates advanced interactive and animated model explanations in the form  of serverless HTML site. It combines R with D3.js to produce plots and descriptions for local and global explanations. The whole is greater than the sum of its parts,  so it also supports EDA on top of that. ModelStudio is a fast and condensed way to get all the answers without much effort. Break down your model and look into its ingredients with only a few lines of code.
+The `modelStudio` package automates the Explanatory Analysis of Machine Learning predictive models. Generate advanced interactive and animated model explanations in the form of a serverless HTML site with only one line of code.
 
-The key function is `modelStudio()` which generates interactive studio to explain predictive model. 
+The main `modelStudio()` function computes various (instance and dataset level) model explanations and produces an interactive, customisable dashboard made with D3.js. It consists of multiple panels for plots with their short descriptions. Easily save and share the dashboard with others. Tools for model exploration unite with tools for EDA (Exploratory Data Analysis) to give a broad overview of the model behavior.
 
-Vignettes: 
+Learn more: 
 
-* [General introduction: modelStudio - perks and features](https://modeloriented.github.io/modelStudio/articles/vignette_modelStudio.html)
+* [Getting started](https://modeloriented.github.io/modelStudio/#demo)
+* [Vignette: perks and features](https://modeloriented.github.io/modelStudio/articles/vignette_modelStudio.html)
+* [JOSS paper: Interactive Studio with Explanations for ML Predictive Models](https://joss.theoj.org/papers/10.21105/joss.01798)
 
 --------------------
 

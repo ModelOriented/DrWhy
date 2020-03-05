@@ -1,7 +1,8 @@
 Package: DrWhy
 Title: Explain, Explore and Debug Predictive Machine Learning Models
 Version: 2019.12
-Authors@R: person("Przemyslaw", "Biecek", email = "przemyslaw.biecek@gmail.com", role = c("aut", "cre"))
+Authors@R: person("Przemyslaw", "Biecek", email = "przemyslaw.biecek@gmail.com", role = c("aut", "cre"), 
+             comment = c(ORCID = "0000-0001-8423-1823"))
 Description: The 'DrWhy.AI' is the collection of tools for Explainable AI (XAI). 
     It's based on principles and the grammar for exploration, 
     explanation and visualisation of predictive models.
@@ -27,4 +28,4 @@ Suggests:
 VignetteBuilder: knitr
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.2
