@@ -2,10 +2,10 @@
 
 *It takes a village to raise a <del>child</del> model*.
 
-The way how we do predictive modeling is very ineffective. We spend way too much time on manual time consuming and easy to automate activities like data cleaning and exploration, crisp modeling, model validation. Instead of focusing on model understanding, productisation and communication.
+The way how we do predictive modeling is very ineffective. We spend way too much time on manual time-consuming and easy to automate activities like data cleaning and exploration, crisp modeling, model validation. We should be focusing more on model understanding, productisation and communication.
 
-Here we gather tools that can be use to make out work more efficient through the whole model lifecycle.
-The unified grammar beyond DrWhy.AI universe is described in the [Predictive Models: Visual Exploration, Explanation and Debugging](https://pbiecek.github.io/PM_VEE/) book.
+Here are gathered tools that can be used to make out work more efficient through the whole model lifecycle.
+The unified grammar beyond DrWhy.AI universe is described in the [Explanatory Model Analysis: Explore, Explain and Examine Predictive Models](https://pbiecek.github.io/ema/) book.
 
 ## Lifecycle for Predictive Models
 
