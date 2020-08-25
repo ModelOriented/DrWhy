@@ -288,6 +288,7 @@ Tools that are useful during the model lifetime. ![MI2](images/mi2.svg) stands f
 
 ### 5. Model audit
 
+* [explainX](https://github.com/explainX/explainx) ![MI2](images/mi2.svg) Explain sklearn and tree-based models. [vigniette](https://www.explainx.ai/)
 * [auditor](https://github.com/MI2DataLab/auditor) ![MI2](images/mi2.svg) model verification, validation, and error analysis [vigniette](https://mi2datalab.github.io/auditor/articles/model_performance_audit.html)
 * [DALEX](https://github.com/pbiecek/DALEX/) ![MI2](images/mi2.svg) Descriptive mAchine Learning EXplanations
 * [iml](https://github.com/christophM/iml); interpretable machine learning R package
