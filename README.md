@@ -1,3 +1,28 @@
+# Responsible Machine Learning
+
+*With Great Power Comes Great Responsibility*. 
+Voltaire (well, maybe)
+
+How to develop machine learning models in a responsible manner? There are several topics worth considering:
+
+* **Effective**. Is the model good enough? Models with low performance should not be used because they can do more harm than good. Communicate the performance of the model in a language that the user understands. Remember that the models will work on a different dataset than the training one. Make sure to assess the performance on the target dataset.
+
+* **Transparent**. Does the user know what influences model predictions? Interpretability and explainability is important. If the model decisions affect us directly or indirectly, we should know where these decisions come from and how they can be changed.
+
+* **Fair**. Does the model discriminate on the basis of gender, age, race or other sensitive attribute? Direct or indirect? It should not! Discrimination can come in many faces. The model may give lower scores, may have lower performance, or may be based on different variables for the protected population.
+
+* **Secure**. Do not let your model be hacked. Every complex system has its vulnerabilities. Seek them out and fix them. Some users may use various tricks to pull model predictions onto their site.
+
+* **Confidential**. Models are often built on sensitive data. Make sure that the data does not leak, so that sensitive attributes are not shared with unauthorized persons. Also beware of model leaks. 
+
+* **Reproducible**. Usually the model development process consists of many steps. Make sure that they are completely reproducible and thus can be verified one by one.
+
+
+
+
+
+
+
 # Collection of tools for Visual Exploration, Explanation and Debugging of Predictive Models
 
 *It takes a village to raise a <del>child</del> model*.
