@@ -146,7 +146,7 @@ Flexible tool for bias detection, visualization, and mitigation. Use models expl
 
 Learn more:
 
-* [fairmodels WebPage](https://fairmodels.drwhy.ai/)
+* [fairmodels website](https://fairmodels.drwhy.ai/)
 * Compas recidivism data use case: [Basic tutorial](https://modeloriented.github.io/fairmodels/articles/Basic_tutorial.html)   
 * Bias mitigation techniques on Adult data: [Advanced tutorial](https://modeloriented.github.io/fairmodels/articles/Advanced_tutorial.html)
 
@@ -180,16 +180,7 @@ Learn more:
 
 --------------------
 
-### [rSAFE](http://github.com/ModelOriented/rSAFE)   <img src="https://modeloriented.github.io/rSAFE/reference/figures/logo.png" align="right" width="100"/>
-
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/rSAFE)](https://cran.r-project.org/package=rSAFE) [![Build Status](https://api.travis-ci.org/ModelOriented/rSAFE.svg?branch=master)](https://travis-ci.org/ModelOriented/rSAFE) [![Coverage
-Status](https://img.shields.io/codecov/c/github/ModelOriented/rSAFE/master.svg)](https://codecov.io/github/ModelOriented/rSAFE?branch=master)[![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-AutoMat-ae2c87)](http://drwhy.ai/#AutoMat) 
-
-The `rSAFE` package is a model agnostic tool for making an interpretable white-box model more accurate using alternative black-box model called surrogate model. Based on the complicated model, such as neural network or random forest, new features are being extracted and then used in the process of fitting a simpler interpretable model, improving its overall performance.
-
---------------------
-
-### [xspliner](http://github.com/ModelOriented/xspliner)   <img src="https://modeloriented.github.io/xspliner/reference/figures/logo.png" align="right" width="100"/>
+### [xspliner](http://github.com/ModelOriented/xspliner)   <!-- <img src="https://modeloriented.github.io/xspliner/reference/figures/logo.png" align="right" width="100"/> -->
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/xspliner)](https://cran.r-project.org/package=xspliner) [![Build Status](https://api.travis-ci.org/ModelOriented/xspliner.svg?branch=master)](https://travis-ci.org/ModelOriented/xspliner) [![Coverage
 Status](https://img.shields.io/codecov/c/github/ModelOriented/vivo/master.svg)](https://codecov.io/github/ModelOriented/xspliner?branch=master) [![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-AutoMat-ae2c87)](http://drwhy.ai/#AutoMat) 
@@ -265,7 +256,7 @@ The `arenar` package can be run in two modes - live (R runs in the background an
 
 Using the Arena is trivially simple. Examples with different levels of advancement are available:
 
-* [Arena WebSite](http://arenar.drwhy.ai/)
+* [Arena website](http://arenar.drwhy.ai/)
 * [arenar documentation](https://arenar.drwhy.ai/)
 
 --------------------
@@ -282,6 +273,19 @@ Learn more:
 * [Getting started](https://modeloriented.github.io/modelDown/getting-started)
 * [JOSS paper: modelDown: automated website generator with interpretable documentation for predictive machine learning models](https://joss.theoj.org/papers/10.21105/joss.01444)
 
+--------------------
+
+### [rSAFE](http://github.com/ModelOriented/rSAFE)   <img src="https://modeloriented.github.io/rSAFE/reference/figures/logo.png" align="right" width="100"/>
+
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/rSAFE)](https://cran.r-project.org/package=rSAFE) [![Build Status](https://api.travis-ci.org/ModelOriented/rSAFE.svg?branch=master)](https://travis-ci.org/ModelOriented/rSAFE) [![Coverage
+Status](https://img.shields.io/codecov/c/github/ModelOriented/rSAFE/master.svg)](https://codecov.io/github/ModelOriented/rSAFE?branch=master)[![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-AutoMat-ae2c87)](http://drwhy.ai/#AutoMat) 
+
+The `rSAFE` package is a model agnostic tool for making an interpretable white-box model more accurate using alternative black-box model called surrogate model. Based on the complicated model, such as neural network or random forest, new features are being extracted and then used in the process of fitting a simpler interpretable model, improving its overall performance.
+
+Learn more:
+
+* article [Simpler is better: Lifting interpretability-performance trade-off via automated feature engineering](https://www.sciencedirect.com/science/article/pii/S016792362100066X)
+* package [website](https://modeloriented.github.io/rSAFE/)
 
 --------------------
 
