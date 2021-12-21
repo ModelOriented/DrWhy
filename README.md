@@ -241,7 +241,7 @@ The main `modelStudio()` function computes various (instance and model-level) ex
 Learn more: 
 
 * [Getting started](https://modeloriented.github.io/modelStudio/#demo)
-* [Vignette: perks and features](https://modeloriented.github.io/modelStudio/articles/vignette_modelStudio.html)
+* [Vignette: perks and features](https://modelstudio.drwhy.ai/articles/ms-perks-features.html)
 * [JOSS paper: Interactive Studio with Explanations for ML Predictive Models](https://joss.theoj.org/papers/10.21105/joss.01798)
 
 --------------------
