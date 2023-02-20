@@ -85,6 +85,22 @@ Vignettes:
 
 --------------------
 
+### [survex](http://github.com/ModelOriented/survex)  <img src="https://raw.githubusercontent.com/ModelOriented/survex/main/man/figures/survex.png" align="right" width="100"/>
+
+TODO: Badges
+
+The survex package provides model-agnostic explanations for machine learning survival models. It is based on the DALEX package.
+
+Due to a functional type of prediction, either in the form of survival function or cumulative hazard function, standard model-agnostic explanations cannot be applied directly to survival analysis machine learning models. The survex package contains implementations of explanation methods specific to survival analysis, as well as extensions of existing ones for classification or regression.
+
+Vignettes:
+
+* [Package usage](https://modeloriented.github.io/survex/articles/survex-usage.html)
+* [Creating custom explainers](https://modeloriented.github.io/survex/articles/custom-explainers.html)
+* [Integration with `mlr3proba`](https://modeloriented.github.io/survex/articles/mlr3proba-usage.html)
+
+--------------------
+
 ### [ingredients](http://github.com/ModelOriented/ingredients)  <img src="https://modeloriented.github.io/ingredients/reference/figures/logo.png" align="right" width="100"/>
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ingredients)](https://cran.r-project.org/package=ingredients) [![Build Status](https://api.travis-ci.org/ModelOriented/ingredients.svg?branch=master)](https://travis-ci.org/ModelOriented/ingredients) [![Coverage
