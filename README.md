@@ -87,7 +87,7 @@ Vignettes:
 
 ### [survex](http://github.com/ModelOriented/survex)  <img src="https://raw.githubusercontent.com/ModelOriented/survex/main/man/figures/survex.png" align="right" width="100"/>
 
-[![CRAN status](https://www.r-pkg.org/badges/version/survex)](https://cran.r-project.org/package=survex) [![R-CMD-check](https://github.com/ModelOriented/survex/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ModelOriented/survex/actions/workflows/R-CMD-check.yaml) [![Codecov test coverage](https://codecov.io/gh/ModelOriented/survex/branch/main/graph/badge.svg)]([https://app.codecov.io/gh/ModelOriented/survex?branch=main](https://img.shields.io/codecov/c/github/ModelOriented/survex/master.svg)) [![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-BackBone-373589)](http://drwhy.ai/#BackBone) 
+[![CRAN status](https://www.r-pkg.org/badges/version/survex)](https://cran.r-project.org/package=survex) [![R-CMD-check](https://github.com/ModelOriented/survex/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ModelOriented/survex/actions/workflows/R-CMD-check.yaml) [![Codecov test coverage]([https://codecov.io/gh/ModelOriented/survex/branch/main/graph/badge.svg]([https://img.shields.io/codecov/c/github/ModelOriented/survex/master.svg](https://codecov.io/github/ModelOriented/survex?branch=master)))]([https://app.codecov.io/gh/ModelOriented/survex?branch=main](https://img.shields.io/codecov/c/github/ModelOriented/survex/master.svg)) [![DrWhy-eXtrAI](https://img.shields.io/badge/DrWhy-BackBone-373589)](http://drwhy.ai/#BackBone) 
 
 The survex package provides model-agnostic explanations for machine learning survival models. It is based on the DALEX package.
 
